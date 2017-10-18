@@ -1,4 +1,6 @@
-Ideas:
+
+
+# Ideas
 
 - copy-paste from SO
 - copyright vs. patent
