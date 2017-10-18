@@ -24,3 +24,4 @@
 - http://blog.milkingthegnu.org/2008/03/10-answers-for.html
 - http://www.oreilly.com/openbook/osfreesoft/
 - https://tldrlegal.com/
+- https://hintjens.gitbooks.io/social-architecture/content/chapter2.html
