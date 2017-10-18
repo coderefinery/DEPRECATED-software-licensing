@@ -13,3 +13,14 @@
 - permissive vs. non-permissive
 - standard vs. non-standard
 - share-alike
+
+
+# References
+
+- https://www.software.ac.uk/choosing-open-source-licence
+- http://oss-watch.ac.uk/resources/ipr
+- http://www.rosenlaw.com/oslbook.htm
+- http://depth-first.com/articles/2006/12/29/dispelling-open-source-confusion-an-introduction-to-licenses/
+- http://blog.milkingthegnu.org/2008/03/10-answers-for.html
+- http://www.oreilly.com/openbook/osfreesoft/
+- https://tldrlegal.com/
