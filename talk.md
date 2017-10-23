@@ -16,10 +16,12 @@ Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org
 
 layout: false
 
-## Goals
+# Goals
 
-- Motivate why software licenses matter
-- Provide guidance on which license to choose
+## 1) Motivate why software licenses matter
+## 2) Provide guidance on which license to choose
+## 3) Practical tips
+## 4) Discussion
 
 ---
 
@@ -34,24 +36,27 @@ layout: false
 
 ---
 
-## IANAL TINLA
+# IANAL TINLA
 
-### I am not a lawyer
+## I am not a lawyer
 
-### This is not legal advice
+## This is not legal advice
 
 ---
 
 ## When to worry about software licenses
 
-- Beginning of a project is the time when we tend to worry the least about a software license
-- Beginning of a project is the time when we should think about a license
+Beginning of a project is the time when we tend to worry the least about a
+software license
+
+Beginning of a project is the time when we should carefully think about a
+license because it may be difficult to change it later
 
 ---
 
 ## Patents vs. copyright
 
-### When we create software, we create both copyrightable expressions and patentable ideas
+### When we create software, we create patentable ideas, copyrightable expressions of ideas, and trademarkable names
 
 - Patents protect ideas
 - Copyright protects the **expression** of an idea
@@ -63,7 +68,13 @@ layout: false
 
 ## These slides are an expression of an idea
 
-- Are you allowed to share them via email or Twitter or similar?
+## Are you allowed to share them via email or Twitter or similar?
+
+---
+
+## These slides are an expression of an idea
+
+## Are you allowed to share them via email or Twitter or similar?
 
 ### Yes!
 
@@ -72,106 +83,71 @@ layout: false
 
 ---
 
-## What is free software?
+## Zoo of licenses
 
-### Software freedom
+- Public domain
+- Closed source or open source
+- Permissive
+- Academic
+- Reciprocal
+- Custom
 
-- The freedom to run the software for any purpose
-- The freedom to study how the software works and to adapt it to your needs
-- The freedom to redistribute copies of the software
-- The freedom to improve the software and distribute your improvements to the public
-
-### Does not mean that software costs nothing or that it has no owner
-
----
-
-## Are you allowed to use open source software in a closed source project?
-
-Depends on whether you distribute it
-
-How can somebody find out that you redistribute open source software breaking license terms
-if you distribute only binaries?
-
----
-
-## Can I copy-paste code from Stack Overflow into my code?
-
-- Non-code: CC BY-SA 3.0 with attribution required
-- Code: MIT license
-
-## You are recommended to do one of these 2 things, or both:
-
-- A) Add a comment to your code that links back to the post where you found it, or
-- B) Comply with the MIT as it is typically used, by including the full license text in your source
-
-https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
-
----
-
-## Can I write a code from scratch and call it "Linux"?
-
-- Imagine I have never seen the Linux source code
-- No: Trademark protection
-
----
-
-## What happens if I do not choose a license?
+### What happens if I do not choose a license?
 
 - Software that you write is copyrighted by default
+- Without a license it is not clear what use breaks copyright
 - Nobody who is careful about her/his code base should use or even look at your code
 - In other words: code without license is not reuseful
 
 ---
 
-## Should I add a copyright header?
+## What is free software?
 
-You should mark an original work with a copyright notice in the form:
+### Software freedom
 
-```
-(c) Copyright <year> <author>
-```
+Is the freedom to ...
 
-- No longer required to obtain copyright
-- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
+- ... run the software for any purpose
+- ... study how the software works and to adapt it to your needs
+- ... redistribute copies of the software
+- ... improve the software and distribute your improvements to the public
 
-CITE ROSEN
+### Does not mean that software costs nothing or that it has no owner
 
----
+### Fear of being scooped
 
-## Who owns the copyright for software you write?
-
-- You?
-- Your university?
-
-### Intellectual property depends on the country!
-
-works made for hire
-
-Personal experience: if you ask legal experts it can get complicated
-
-### If you own your software
-
-- You can relicense
-- You can dual-license
-
-### If you do not own your software, you can:
-
-- Request a transfer of ownership (check with your university)
-- Open source your code to make sure you are not locked out of your own code
-  once you change affiliation (you might need to inform your university)
-
-Nobody can take away code from you if you develop in your free time on your hardware using your own network.
+- Releasing under and open source license does not mean you need to share everything immediately
 
 ---
 
-## Can I change the license later?
+## Public domain
 
-- The copyright owner can
-- Who is the copyright owner if your code got contributions from other
-  developers? You may need to get a signed agreement from all past
-  contributors.
-- Consider drafting a contributor license agreement (CLA) and copyright assignment (CA)
-- Make contributors aware that contributions may imply CLA and CA
+- Software in the public domain has no owner
+- Open source does not mean public domain
+- Open source software remains the intellectual property of the copyright owner
+
+### Problems with public domain
+
+- In certain jurisdictions you cannot just give up your rights without an explicit license
+- Public domain does not provide you a warranty and does not protect you from a law suit
+
+Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
+
+---
+
+## Academic licenses vs. reciprocal licenses
+
+### Academic/permissive
+
+- Derivative works do not have to be contributed back into public commons
+- One-way remixable
+
+### Reciprocal
+
+- .red[Derivative works are required to be distributed under the same license]
+- Two-way remixable
+- Copyleft/reciprocity
+- Share-alike
 
 ---
 
@@ -192,84 +168,69 @@ Right to:
 - "Some rights reserved" instead of "all rights reserved"
 - Goal: support the building of a richer public domain
 
-CITE https://en.wikipedia.org/wiki/Creative_Commons
+### CC0
+
+- Equivalent of public domain
+
+https://en.wikipedia.org/wiki/Creative_Commons
 
 ---
 
-## Fear of being scooped
+## Are you allowed to use open source software in a closed source project?
 
-- Releasing under and open source license does not mean you need to share everything immediately
+Depends on whether you distribute it:
 
----
+- No distribution: you can use it in almost any way you can imagine
+- If distributed: depends on the open source license
 
-## Public domain
+How can somebody find out that you redistribute open source software breaking license terms
+if you distribute only binaries?
 
-- Software in the public domain has no owner
-- Open source does not mean public domain
-- Open source software remains the intellectual property of the copyright owner
-
-### Problems with public domain
-
-- In certain jurisdictions you cannot just give up your rights without an explicit license
-- Public domain does not provide you a warranty and does not protect you from a law suit
-
-SOURCE: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
+- Unethical
+- Problematic for your own court case to demonstrate that somebody else stole your closed source code
 
 ---
 
-## Academic licenses vs. reciprocal licenses
+## Can I copy-paste code from Stack Overflow into my code?
 
-### Academic
+- Non-code: CC BY-SA 3.0 with attribution required
+- Code: MIT license
 
-- Derivative works do not have to be contributed back into public commons
-- One-way remixable
+### You are recommended to do one of these 2 things, or both:
 
-### Reciprocal
+- A) Add a comment to your code that links back to the post where you found it, or
+- B) Comply with the MIT as it is typically used, by including the full license text in your source
 
-- Copyleft synonymous for reciprocity
-- Derivative works are required to be distributed under the same license
-- Two-way remixable
-
----
-
-## Reciprocity: Share and Share Alike?
-
-- May be attractive to developers
+https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
 
 ---
 
 ## Derivative works
 
-Collective works and derivative works are also original works of authorship
+- Collective works and derivative works are also original works of authorship
+- Collective work: aggregation of separately written software
+- Joint work: contribution to a joint work is owned by all of its authors jointly
 
-Collective work: aggregation of separately written software
+Goals for derivative work:
 
--> Chain of title for copyright
+- Encourage free and open source software development
+- Avoid scaring proprietary software users away
 
-Joint work: A contribution to a joint work is owned by all of its
-authors jointly.
+Reference: http://www.rosenlaw.com/lj19.htm
 
-How can you tell when you have created a derivative work?
+---
 
-Very important question!
+## How can you tell when you have created a derivative work?
 
-- Modifying source code by revising the code or translating it into another computer language, recasting, or adapting is derivative work
-
-The primary indication of whether a new program is a derivative work is whether
-the source code of the original program was **used**, modified, translated or
-otherwise changed in any way to create the new program.
+- Modifying source code by revising the code or translating it into another
+  computer language, recasting, or adapting is derivative work
 
 Typically not derivative works:
 
 - Linking to libraries (static or dynamic), plug-ins, and drivers
 - If you can use a code without looking at the source code (library), you are probably not creating derivative work
 
-CITE ROSEN http://www.rosenlaw.com/lj19.htm
-
-Goals:
-
-- Encourage free and open source software development
-- Avoid scaring proprietary software users away
+Reference: http://www.rosenlaw.com/lj19.htm
 
 ---
 
@@ -283,13 +244,10 @@ You need at least two teams
 4. Team B never sees code A
 5. Team B implements code B based on specifications
 
----
+### Can I write a code from scratch and call it "Linux"?
 
-- Licenses may limit modifications of the code and modifications of the license
-
----
-
-## OSI-approved vs. custom license
+- Imagine I have never seen the Linux source code
+- No: Trademark protection
 
 ---
 
@@ -307,8 +265,9 @@ You need at least two teams
 
 ## Recommendations
 
-- Consider compatibility with libraries you use and code you want to be used by
-- Take a standard license: makes it easier to evaluate compatibility
+- Consider compatibility "up" and "down"
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate compatibility
+- Do not use custom licenses: compatibility not clear
 
 ### Permissive (you can use my code even in commercial code)
 
@@ -326,13 +285,68 @@ You need at least two teams
 
 ---
 
+## Can I change the license later?
+
+- The copyright owner can
+- Who is the copyright owner if your code got contributions from other
+  developers? You may need to get a signed agreement from all past
+  contributors.
+- Consider drafting a contributor license agreement (CLA) and copyright assignment (CA)
+- Make contributors aware that contributions may imply CLA and CA
+
+---
+
+## Who owns the copyright for software you write?
+
+- You?
+- Your university?
+
+### Intellectual property depends on the country!
+
+- So-called works made for hire
+- Personal experience: if you ask legal experts it can get complicated
+- Nobody can take away code from you if you develop in your free time on your hardware using your own network
+
+---
+
+### If you own your software
+
+- You can relicense
+- You can dual-license
+
+### If you do not own your software, you can:
+
+- Request a transfer of ownership (check with your university)
+- Open source your code to make sure you are not locked out of your own code
+  once you change affiliation (you might need to inform your university)
+
+---
+
 ## Practical aspects
 
 - Add a LICENSE file
-- Consider adding copyright headers
 - Agree on a licensing strategy and make it public and visible
 - License your supporting information (images) under creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
-- Unrelated but still recommended: use [Zenodo](https://zenodo.org) to assign DOIs to code releases
+- Unrelated but still recommended: make your code easy to cite (use [Zenodo](https://zenodo.org) to assign DOIs to code releases)
+
+### Personal observation
+
+- People are generally good and will cite your code and involve you in derivative projects
+
+---
+
+## Should I add a copyright header?
+
+You should mark an original work with a copyright notice in the form:
+
+```
+(c) Copyright <year> <author>
+```
+
+- No longer required to obtain copyright
+- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
+
+Reference: http://www.rosenlaw.com/oslbook.htm
 
 ---
 
@@ -342,9 +356,13 @@ You need at least two teams
 
 - ... use an open source code (scientific reproducibility)
 - ... develop under an open source license to keep access to my code
-- ... develop under a share-alike license in order to not lock myself out of the code I have written and improvements to the code
-- ... contribute to a share-alike licensed software of others
+- ... develop under a share-alike license in order to not lock myself out of improvements to my code
+- ... contribute to a share-alike licensed software of others because I know they won't run away with my code
 - ... distribute my code under a share-alike license to motivate people like me to contribute
+
+### When I am "forced" to contribute to a closed-source code ...
+
+- ... I contribute my code explicitly under LGPL or MPL (to not lose control)
 
 ### Food for thought
 
@@ -352,7 +370,7 @@ Is closed-source development compatible with reproducible research?
 
 ---
 
-## References
+## Good resources
 
 - https://www.software.ac.uk/choosing-open-source-licence
 - http://oss-watch.ac.uk/resources/ipr
