@@ -1,4 +1,5 @@
 
+
 ## Can I copy-paste code from Stack Overflow into my code?
 
 ---
@@ -69,9 +70,11 @@ Is closed-source compatible with reproducible research?
 ## Practical aspects
 
 - LICENSE file
-- CLA
 - Copyright header
-- agree on a licensing strategy
+- Agree on a licensing strategy
+- CLA
+- License your supporting information (images) under creative commons (use Zenodo or Figshare)
+- Unrelated but still recommended: use Zenodo to assign DOIs to code releases
 
 ---
 
