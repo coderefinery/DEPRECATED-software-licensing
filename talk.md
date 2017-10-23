@@ -1,3 +1,20 @@
+name: inverse
+layout: true
+class: middle, inverse
+
+---
+
+# Software licensing
+
+## [Radovan Bast](http://bast.fr)
+
+### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
+
+Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+layout: false
 
 ## Goals
 
