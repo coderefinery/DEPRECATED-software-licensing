@@ -1,16 +1,46 @@
 
+## Goals
 
-## Can I copy-paste code from Stack Overflow into my code?
+- Motivate why software licenses matter
+- Provide guidance on which license to choose
 
-- Non-code: CC BY-SA 3.0 with attribution required
-- Code: MIT license
+---
 
-## You are recommended to do one of these 2 things, or both:
+## Questions we will try to answer
 
-- A) Add a comment to your code that links back to the post where you found it, or
-- B) Comply with the MIT as it is typically used, by including the full license text in your source
+- Can I copy-paste code from Stack Overflow into my code?
+- Who owns the code you write?
+- Where does derivative work start and end?
+- How can you protect your ideas, names, and implementations?
+- How software licenses can influence the impact of your code.
+- How to motivate contributions to your code?
 
-https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
+---
+
+## IANAL TINLA
+
+### I am not a lawyer
+
+### This is not legal advice
+
+---
+
+## When to worry about software licenses
+
+- Beginning of a project is the time when we tend to worry the least about a software license
+- Beginning of a project is the time when we should think about a license
+
+---
+
+## Patents vs. copyright
+
+### When we create software, we create both copyrightable expressions and patentable ideas
+
+- Patents protect ideas
+- Copyright protects the **expression** of an idea
+- Copyright is automatically attached to every novel expression of an idea (for a certain amount of years)
+- Software that you write is copyrighted by default
+- No person other than the creator has the right under copyright law to create "derivative works"
 
 ---
 
@@ -36,59 +66,17 @@ if you distribute only binaries?
 
 ---
 
-## Food for thought
+## Can I copy-paste code from Stack Overflow into my code?
 
-Is closed-source compatible with reproducible research?
+- Non-code: CC BY-SA 3.0 with attribution required
+- Code: MIT license
 
----
+## You are recommended to do one of these 2 things, or both:
 
-## Goals
+- A) Add a comment to your code that links back to the post where you found it, or
+- B) Comply with the MIT as it is typically used, by including the full license text in your source
 
-- Motivate why software licenses matter
-- Provide guidance on which license to choose
-
----
-
-## IANAL TINLA
-
-### I am not a lawyer
-
-### This is not legal advice
-
----
-
-## Questions to ask yourself when looking for the right license
-
-- What do you want to achieve?
-- What do you wish to avoid?
-- Do you want to make money with the project?
-- Do you mind if others do?
-- Do you care about derivative work?
-- Do you want to attract developers?
-- Do you want to not repel proprietary software users?
-
----
-
-## Patents vs. copyright
-
-### When we create software, we create both copyrightable expressions and patentable ideas
-
-- Patents protect ideas
-- Copyright protects the **expression** of an idea
-- Copyright is automatically attached to every novel expression of an idea (for a certain amount of years)
-- Software that you write is copyrighted by default
-- No person other than the creator has the right under copyright law to create "derivative works"
-
----
-
-## Practical aspects
-
-- LICENSE file
-- Copyright header
-- Agree on a licensing strategy
-- CLA
-- License your supporting information (images) under creative commons (use Zenodo or Figshare)
-- Unrelated but still recommended: use Zenodo to assign DOIs to code releases
+https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
 
 ---
 
@@ -96,6 +84,14 @@ Is closed-source compatible with reproducible research?
 
 - Imagine I have never seen the Linux source code
 - No: Trademark protection
+
+---
+
+## What happens if I do not choose a license?
+
+- Software that you write is copyrighted by default
+- Nobody who is careful about her/his code base should use or even look at your code
+- In other words: code without license is not reuseful
 
 ---
 
@@ -111,12 +107,6 @@ You should mark an original work with a copyright notice in the form:
 - However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
 
 CITE ROSEN
-
----
-
-## What happens if I do not choose a license?
-
-- Nobody who is careful about her/his code base should use or even look at your code
 
 ---
 
@@ -143,12 +133,6 @@ Personal experience: if you ask legal experts it can get complicated
   once you change affiliation (you might need to inform your university)
 
 Nobody can take away code from you if you develop in your free time on your hardware using your own network.
-
----
-
-## These slides are an expression of an idea
-
-- Are you allowed to share them?
 
 ---
 
@@ -202,13 +186,6 @@ CITE https://en.wikipedia.org/wiki/Creative_Commons
 - Public domain does not provide you a warranty and does not protect you from a law suit
 
 SOURCE: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
-
----
-
-## When to worry about software licenses
-
-- Beginning of a project is the time when we tend to worry the least about a software license
-- Beginning of a project is the time when we should think about a license
 
 ---
 
@@ -300,25 +277,31 @@ You need at least two teams
 
 ---
 
-## Trademark
-
-- Consider registering a trademark for the software name
+## OSI-approved vs. custom license
 
 ---
 
-## OSI-approved vs. custom license
+## Questions to ask yourself when looking for the right license
+
+- What do you want to achieve?
+- What do you wish to avoid?
+- Do you want to make money with the project?
+- Do you mind if others do?
+- Do you care about derivative work?
+- Do you want to attract developers?
+- Do you care about impact of your code? Proprietary software users?
 
 ---
 
 ## Recommendations
 
-- Take a standard license
 - Consider compatibility with libraries you use and code you want to be used by
+- Take a standard license: makes it easier to evaluate compatibility
 
 ### Permissive (you can use my code even in commercial code)
 
 - I don't care but I care about limiting my liability: MIT or Apache or BSD2
-- I don't care but I wish to have the no-endorsement clause: BSD3
+- I don't care but in addition I wish to have the no-endorsement clause: BSD3
 
 ### Reciprocal (you can use my code if I can use your code)
 
@@ -331,14 +314,29 @@ You need at least two teams
 
 ---
 
+## Practical aspects
+
+- Add a LICENSE file
+- Consider adding copyright headers
+- Agree on a licensing strategy and make it public and visible
+- License your supporting information (images) under creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
+- Unrelated but still recommended: use [Zenodo](https://zenodo.org) to assign DOIs to code releases
+
+---
+
 ## My personal choices
 
-### When I have the choice
+### When I have the choice, I prefer to ...
 
-- I prefer to use an open source code (scientific reproducibility)
-- I prefer to contribute to a share-alike licensed software
-- I prefer to distribute my code under a share-alike license to motivate people like me to contribute
-- I prefer to develop under a share-alike license in order to not lock myself out of the code I have written
+- ... use an open source code (scientific reproducibility)
+- ... develop under an open source license to keep access to my code
+- ... develop under a share-alike license in order to not lock myself out of the code I have written and improvements to the code
+- ... contribute to a share-alike licensed software of others
+- ... distribute my code under a share-alike license to motivate people like me to contribute
+
+### Food for thought
+
+Is closed-source development compatible with reproducible research?
 
 ---
 
