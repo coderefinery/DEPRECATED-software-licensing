@@ -2,6 +2,16 @@
 
 ## Can I copy-paste code from Stack Overflow into my code?
 
+- Non-code: CC BY-SA 3.0 with attribution required
+- Code: MIT license
+
+## You are recommended to do one of these 2 things, or both:
+
+- A) Add a comment to your code that links back to the post where you found it, or
+- B) Comply with the MIT as it is typically used, by including the full license text in your source
+
+https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
+
 ---
 
 ## What is free software?
@@ -39,7 +49,11 @@ Is closed-source compatible with reproducible research?
 
 ---
 
-## IANAL disclaimer
+## IANAL TINLA
+
+### I am not a lawyer
+
+### This is not legal advice
 
 ---
 
@@ -144,12 +158,35 @@ Nobody can take away code from you if you develop in your free time on your hard
 
 ### Yes!
 
-- Explicitly allowed by creative commons license (CC-BY-SA 4.0)
+- Explicitly allowed by creative commons license (CC BY-SA 4.0)
 - Otherwise probably fine according to "fair use"
 
 ---
 
 ## Creative commons licenses
+
+### Open content
+
+Right to:
+
+- Retain
+- Reuse
+- Revise
+- Remix
+- Redistribute
+
+### Copyleft movement
+
+- "Some rights reserved" instead of "all rights reserved"
+- Goal: support the building of a richer public domain
+
+CITE https://en.wikipedia.org/wiki/Creative_Commons
+
+---
+
+## Fear of being scooped
+
+- Releasing under and open source license does not mean you need to share everything immediately
 
 ---
 
@@ -280,17 +317,17 @@ You need at least two teams
 
 ### Permissive (you can use my code even in commercial code)
 
-- I don't care but I care about limiting my liability: MIT
-- I don't care but I care a bit more about X: BSD
+- I don't care but I care about limiting my liability: MIT or Apache or BSD2
+- I don't care but I wish to have the no-endorsement clause: BSD3
 
 ### Reciprocal (you can use my code if I can use your code)
 
-- GNU GPL, AGPL
+- GNU GPL, GNU Affero GPL
 
 ### Share-alike but compatible with closed-source code (you can use my code if I can use changes you make to my code)
 
-- Dynamic relinking possible: GNU LGPL
-- Dynamic or static linking: MPL v2.0
+- Dynamic relinking possible: GNU Lesser GPL
+- Dynamic or static linking: Mozilla Public License v2.0
 
 ---
 
