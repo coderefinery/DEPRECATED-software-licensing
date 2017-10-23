@@ -44,6 +44,17 @@
 
 ---
 
+## These slides are an expression of an idea
+
+- Are you allowed to share them via email or Twitter or similar?
+
+### Yes!
+
+- Explicitly allowed by creative commons license (CC BY-SA 4.0)
+- Otherwise probably fine according to "fair use"
+
+---
+
 ## What is free software?
 
 ### Software freedom
@@ -136,14 +147,14 @@ Nobody can take away code from you if you develop in your free time on your hard
 
 ---
 
-## These slides are an expression of an idea
+## Can I change the license later?
 
-- Are you allowed to share them via email or Twitter or similar?
-
-### Yes!
-
-- Explicitly allowed by creative commons license (CC BY-SA 4.0)
-- Otherwise probably fine according to "fair use"
+- The copyright owner can
+- Who is the copyright owner if your code got contributions from other
+  developers? You may need to get a signed agreement from all past
+  contributors.
+- Consider drafting a contributor license agreement (CLA) and copyright assignment (CA)
+- Make contributors aware that contributions may imply CLA and CA
 
 ---
 
@@ -210,17 +221,6 @@ SOURCE: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
 
 ---
 
-## Can I change the license later?
-
-- The copyright owner can
-- Who is the copyright owner if your code got contributions from other
-  developers? You may need to get a signed agreement from all past
-  contributors.
-- Consider drafting a contributor license agreement (CLA) and copyright assignment (CA)
-- Make contributors aware that contributions may imply CLA and CA
-
----
-
 ## Derivative works
 
 Collective works and derivative works are also original works of authorship
@@ -268,12 +268,7 @@ You need at least two teams
 
 ---
 
-## Licenses and restrictions
-
-- A license must contain limitations [VERIFY]
-- Compare with poetic and WTF license
-- Licenses may limit modifications of the code
-- Open source licenses may limit modifications of the license
+- Licenses may limit modifications of the code and modifications of the license
 
 ---
 
