@@ -16,7 +16,7 @@ Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org
 
 layout: false
 
-# Goals (not in this order)
+# Goals
 
 ## 1) Motivate why software licenses matter
 ## 2) Provide guidance on which license to choose
