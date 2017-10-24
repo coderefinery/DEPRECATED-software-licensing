@@ -314,6 +314,8 @@ Result is **not** derivative work.
 - Personal experience: if you ask legal experts it can get complicated
 - Nobody can take away code from you if you develop in your free time on your hardware using your own network
 
+### Even within a country it can vary depending on the employer (public vs private)
+
 ---
 
 ## If you own your software
