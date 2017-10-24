@@ -95,6 +95,7 @@ license because it may be difficult to change it later
 - Academic
 - Reciprocal
 - Custom
+- Proprietary licenses/EULAs also exist
 
 ### What happens if I do not choose a license?
 
