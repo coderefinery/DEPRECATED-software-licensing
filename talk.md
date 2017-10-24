@@ -16,7 +16,7 @@ Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org
 
 layout: false
 
-# Goals
+# Goals (not in this order)
 
 ## 1) Motivate why software licenses matter
 ## 2) Provide guidance on which license to choose
@@ -56,13 +56,13 @@ license because it may be difficult to change it later
 
 ## Patents vs. copyright
 
-### When we create software, we create patentable ideas, copyrightable expressions of ideas, and trademarkable names
+### When we create software, we may create patentable ideas, copyrightable expressions of ideas, and trademarkable names
 
 - Patents protect ideas
 - Copyright protects the **expression** of an idea
 - Copyright is automatically attached to every novel expression of an idea (for a certain amount of years)
 - Software that you write is copyrighted by default
-- No person other than the creator has the right under copyright law to create "derivative works"
+- No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
 
 ---
 
@@ -186,7 +186,7 @@ Depends on whether you distribute it:
 How can somebody find out that you redistribute open source software breaking license terms
 if you distribute only binaries?
 
-- Unethical
+- Unethical (and illegal)
 - Problematic for your own court case to demonstrate that somebody else stole your closed source code
 
 ---
@@ -211,7 +211,7 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 - Collective work: aggregation of separately written software
 - Joint work: contribution to a joint work is owned by all of its authors jointly
 
-Goals for derivative work:
+### Goals for derivative work
 
 - Encourage free and open source software development
 - Avoid scaring proprietary software users away
@@ -225,7 +225,7 @@ Reference: http://www.rosenlaw.com/lj19.htm
 - Modifying source code by revising the code or translating it into another
   computer language, recasting, or adapting is derivative work
 
-Typically not derivative works:
+### Typically not derivative works:
 
 - Linking to libraries (static or dynamic), plug-ins, and drivers
 - If you can use a code without looking at the source code (library), you are probably not creating derivative work
@@ -269,10 +269,10 @@ You need at least two teams
 - Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate compatibility
 - Do not use custom licenses: compatibility not clear
 
-### Permissive (you can use my code even in commercial code)
+### Permissive (I don't care; you can use my code even in commercial code)
 
-- I don't care but I care about limiting my liability: MIT or Apache or BSD2
-- I don't care but in addition I wish to have the no-endorsement clause: BSD3
+- I need to limit my liability: MIT or Apache or BSD2
+- In addition I wish to have the no-endorsement clause: BSD3
 
 ### Reciprocal (you can use my code if I can use your code)
 
@@ -309,7 +309,7 @@ You need at least two teams
 
 ---
 
-### If you own your software
+## If you own your software
 
 - You can relicense
 - You can dual-license
@@ -324,7 +324,7 @@ You need at least two teams
 
 ## Practical aspects
 
-- Add a LICENSE file
+- Add a LICENSE file to your repository (GitHub understands it)
 - Agree on a licensing strategy and make it public and visible
 - License your supporting information (images) under creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
 - Unrelated but still recommended: make your code easy to cite (use [Zenodo](https://zenodo.org) to assign DOIs to code releases)
