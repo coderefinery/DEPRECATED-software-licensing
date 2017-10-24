@@ -116,7 +116,7 @@ Is the freedom to ...
 
 ### Fear of being scooped
 
-- Releasing under and open source license does not mean you need to share everything immediately
+- Releasing under an open source license does not mean you need to share everything immediately
 
 ---
 
