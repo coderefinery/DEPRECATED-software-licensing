@@ -248,6 +248,8 @@ You need at least two teams
 4. Team B never sees code A
 5. Team B implements code B based on specifications
 
+Result is **not** derivative work.
+
 ### Can I write a code from scratch and call it "Linux"?
 
 - Imagine I have never seen the Linux source code
