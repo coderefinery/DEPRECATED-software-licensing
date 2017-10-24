@@ -272,7 +272,8 @@ Result is **not** derivative work.
 ## Recommendations
 
 - Consider compatibility "up" and "down"
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate compatibility
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
 - Do not use custom licenses: compatibility not clear
 
 ### Permissive (I don't care; you can use my code even in commercial code)
