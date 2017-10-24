@@ -276,7 +276,7 @@ You need at least two teams
 
 ### Reciprocal (you can use my code if I can use your code)
 
-- GNU GPL, GNU Affero GPL
+- GNU GPL or GNU Affero GPL (for web services)
 
 ### Share-alike but compatible with closed-source code (you can use my code if I can use changes you make to my code)
 
