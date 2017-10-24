@@ -97,7 +97,7 @@ license because it may be difficult to change it later
 - Software that you write is copyrighted by default
 - Without a license it is not clear what use breaks copyright
 - Nobody who is careful about her/his code base should use or even look at your code
-- In other words: code without license is not reuseful
+- In other words: code without license is not useful for reuse or derivative work
 
 ---
 
