@@ -12,6 +12,9 @@ class: middle, inverse
 
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+Acknowledgements:
+- Oxana Smirnova (suggestions and corrections)
+
 ---
 
 layout: false
@@ -137,6 +140,10 @@ Is the freedom to ...
 - Public domain does not provide you a warranty and does not protect you from a lawsuit
 
 Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
+
+Public license releases the original author from all responsibilities, and does
+not guarantee that software does what it was intended to do; the other end of
+the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ---
 
