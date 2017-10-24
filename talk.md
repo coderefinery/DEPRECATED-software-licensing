@@ -68,17 +68,21 @@ license because it may be difficult to change it later
 
 ## These slides are an expression of an idea
 
-## Are you allowed to share them via email or Twitter or similar?
+- Can I patent them?
+- Do I need to copyright them?
+- Are you allowed to share them via email or Twitter or similar?
 
 ---
 
 ## These slides are an expression of an idea
 
-## Are you allowed to share them via email or Twitter or similar?
+- Can I patent them? No
+- Do I need to copyright them? No (copyright by default)
+- Are you allowed to share them via email or Twitter or similar? Yes!
 
-### Yes!
+### Yes to sharing!
 
-- Explicitly allowed by creative commons license (CC BY-SA 4.0)
+- Sharing explicitly allowed by creative commons license (CC BY-SA 4.0)
 - Otherwise probably fine according to "fair use"
 
 ---
