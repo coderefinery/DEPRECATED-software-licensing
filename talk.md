@@ -129,7 +129,7 @@ Is the freedom to ...
 ### Problems with public domain
 
 - In certain jurisdictions you cannot just give up your rights without an explicit license
-- Public domain does not provide you a warranty and does not protect you from a law suit
+- Public domain does not provide you a warranty and does not protect you from a lawsuit
 
 Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
 
