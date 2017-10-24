@@ -155,7 +155,7 @@ Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
 
 ---
 
-## Creative commons licenses
+## Creative commons licenses (not quite a software license)
 
 ### Open content
 
@@ -335,7 +335,8 @@ Result is **not** derivative work.
 
 - Add a LICENSE file to your repository (GitHub understands it)
 - Agree on a licensing strategy and make it public and visible
-- License your supporting information (images) under creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
+- License your supporting information (images) under
+  creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
 - Unrelated but still recommended: make your code easy to cite (use [Zenodo](https://zenodo.org) to assign DOIs to code releases)
 
 ### Personal observation
