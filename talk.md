@@ -168,7 +168,7 @@ Right to:
 - "Some rights reserved" instead of "all rights reserved"
 - Goal: support the building of a richer public domain
 
-### CC0
+### CC0 (creative commons zero)
 
 - Equivalent of public domain
 
