@@ -30,7 +30,7 @@ layout: false
 
 ## Questions we will try to answer
 
-- Can I copy-paste code from Stack Overflow into my code?
+- Can you copy-paste code from Stack Overflow into your code?
 - Who owns the code you write?
 - Where does derivative work start and end?
 - How can you protect your ideas, names, and implementations?
@@ -59,7 +59,7 @@ license because it may be difficult to change it later
 
 ## Patents vs. copyright
 
-### When we create software, we may create patentable ideas, copyrightable expressions of ideas, and trademarkable names
+### When we create software, we may create patentable .blue[ideas], copyrightable .blue[expressions] of ideas, and trademarkable .blue[names]
 
 - Patents protect ideas
 - Copyright protects the **expression** of an idea
@@ -98,7 +98,7 @@ license because it may be difficult to change it later
 - Academic
 - Reciprocal
 - Custom
-- Proprietary licenses/EULAs also exist
+- Proprietary licenses/EULAs
 
 ### What happens if I do not choose a license?
 
