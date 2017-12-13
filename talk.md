@@ -147,6 +147,18 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ---
 
+## Questions to ask yourself when looking for the right license
+
+- What do you want to achieve?
+- What do you wish to avoid?
+- Do you want to make money with the project?
+- Do you mind if others do?
+- Do you care about derivative work?
+- Do you want to attract developers?
+- Do you care about impact of your code? Proprietary software users?
+
+---
+
 ## Academic licenses vs. reciprocal licenses
 
 ### Academic/permissive
@@ -160,6 +172,77 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - Two-way remixable
 - Copyleft/reciprocity
 - Share-alike
+
+---
+
+## Recommendations
+
+- Consider compatibility "up" and "down"
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
+- Do not use custom licenses: compatibility not clear
+
+### Permissive (I don't care; you can use my code even in commercial code)
+
+- I need to limit my liability: MIT or Apache or BSD2
+- In addition I wish to have the no-endorsement clause: BSD3
+
+### Reciprocal (you can use my code if I can use your code)
+
+- GNU GPL or GNU Affero GPL (for web services)
+
+### Share-alike but compatible with closed-source code (you can use my code if I can use changes you make to my code)
+
+- Dynamic relinking possible: GNU Lesser GPL
+- Dynamic or static linking: Mozilla Public License v2.0
+
+---
+
+## Derivative works
+
+- Collective works and derivative works are also original works of authorship
+- Collective work: aggregation of separately written software
+- Joint work: contribution to a joint work is owned by all of its authors jointly
+
+### Goals for derivative work
+
+- Encourage free and open source software development
+- Avoid scaring proprietary software users away
+
+Reference: http://www.rosenlaw.com/lj19.htm
+
+---
+
+## How can you tell when you have created a derivative work?
+
+- Modifying source code by revising the code or translating it into another
+  computer language, recasting, or adapting is derivative work
+
+### Typically not derivative works:
+
+- Linking to libraries (static or dynamic), plug-ins, and drivers
+- If you can use a code without looking at the source code (library), you are probably not creating derivative work
+
+Reference: http://www.rosenlaw.com/lj19.htm
+
+---
+
+## Clean room design
+
+You need at least two teams
+
+1. Team A studies code A
+2. Team A writes specifications for code A
+3. Legal team checks specifications
+4. Team B never sees code A
+5. Team B implements code B based on specifications
+
+Result is **not** derivative work.
+
+### Can I write a code from scratch and call it "Linux"?
+
+- Imagine I have never seen the Linux source code
+- No: Trademark protection
 
 ---
 
@@ -214,89 +297,6 @@ if you distribute only binaries?
 - B) Comply with the MIT as it is typically used, by including the full license text in your source
 
 https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
-
----
-
-## Derivative works
-
-- Collective works and derivative works are also original works of authorship
-- Collective work: aggregation of separately written software
-- Joint work: contribution to a joint work is owned by all of its authors jointly
-
-### Goals for derivative work
-
-- Encourage free and open source software development
-- Avoid scaring proprietary software users away
-
-Reference: http://www.rosenlaw.com/lj19.htm
-
----
-
-## How can you tell when you have created a derivative work?
-
-- Modifying source code by revising the code or translating it into another
-  computer language, recasting, or adapting is derivative work
-
-### Typically not derivative works:
-
-- Linking to libraries (static or dynamic), plug-ins, and drivers
-- If you can use a code without looking at the source code (library), you are probably not creating derivative work
-
-Reference: http://www.rosenlaw.com/lj19.htm
-
----
-
-## Clean room design
-
-You need at least two teams
-
-1. Team A studies code A
-2. Team A writes specifications for code A
-3. Legal team checks specifications
-4. Team B never sees code A
-5. Team B implements code B based on specifications
-
-Result is **not** derivative work.
-
-### Can I write a code from scratch and call it "Linux"?
-
-- Imagine I have never seen the Linux source code
-- No: Trademark protection
-
----
-
-## Questions to ask yourself when looking for the right license
-
-- What do you want to achieve?
-- What do you wish to avoid?
-- Do you want to make money with the project?
-- Do you mind if others do?
-- Do you care about derivative work?
-- Do you want to attract developers?
-- Do you care about impact of your code? Proprietary software users?
-
----
-
-## Recommendations
-
-- Consider compatibility "up" and "down"
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
-  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
-- Do not use custom licenses: compatibility not clear
-
-### Permissive (I don't care; you can use my code even in commercial code)
-
-- I need to limit my liability: MIT or Apache or BSD2
-- In addition I wish to have the no-endorsement clause: BSD3
-
-### Reciprocal (you can use my code if I can use your code)
-
-- GNU GPL or GNU Affero GPL (for web services)
-
-### Share-alike but compatible with closed-source code (you can use my code if I can use changes you make to my code)
-
-- Dynamic relinking possible: GNU Lesser GPL
-- Dynamic or static linking: Mozilla Public License v2.0
 
 ---
 
