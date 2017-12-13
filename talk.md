@@ -246,31 +246,6 @@ Result is **not** derivative work.
 
 ---
 
-## Creative commons licenses (not quite a software license)
-
-### Open content
-
-Right to:
-
-- Retain
-- Reuse
-- Revise
-- Remix
-- Redistribute
-
-### Copyleft movement
-
-- "Some rights reserved" instead of "all rights reserved"
-- Goal: support the building of a richer public domain
-
-### CC0 (creative commons zero)
-
-- Equivalent of public domain
-
-https://en.wikipedia.org/wiki/Creative_Commons
-
----
-
 ## Are you allowed to use open source software in a closed source project?
 
 Depends on whether you distribute it:
