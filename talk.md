@@ -67,6 +67,21 @@ layout: false
 
 ---
 
+## Should I add a copyright header?
+
+You should mark an original work with a copyright notice in the form:
+
+```
+(c) Copyright <year> <author>
+```
+
+- No longer required to obtain copyright
+- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
+
+Reference: http://www.rosenlaw.com/oslbook.htm
+
+---
+
 ## These slides are an expression of an idea
 
 - Can I patent them?
@@ -323,21 +338,6 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 ### Personal observation
 
 - People are generally good and will cite your code and involve you in derivative projects
-
----
-
-## Should I add a copyright header?
-
-You should mark an original work with a copyright notice in the form:
-
-```
-(c) Copyright <year> <author>
-```
-
-- No longer required to obtain copyright
-- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
-
-Reference: http://www.rosenlaw.com/oslbook.htm
 
 ---
 
