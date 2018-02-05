@@ -365,7 +365,50 @@ Is closed-source development compatible with reproducible research?
 
 ## Making your code citable
 
+### Create a DOI for each release
+
 - https://guides.github.com/activities/citable-code/
 - https://zenodo.org
-- https://software.ac.uk/blog/2017-12-12-standard-format-citation-files
-- https://citation-file-format.github.io
+
+---
+
+## Citation file format
+
+- [A standard format for CITATION files](https://software.ac.uk/blog/2017-12-12-standard-format-citation-files)
+- [Citation File Format (CFF) 1.0.3](https://citation-file-format.github.io)
+
+
+### Specifications
+
+- Machine-readable
+- Human-writable: easy to read, write and edit
+- Standard format (YAML)
+- Support fine-grained types: software source code, software executable, software container, and virtual machine (image), etc.
+- Versioned
+- DOI, hash, or at least contact information
+- Support all scenarios for authorship and roles for authors
+- Allow to link to ORCID
+- Compatibility with other formats (Zenodo, Figshare)
+- Allow unicode, UTF-8 encoding
+
+---
+
+Example [CITATION.cff file](https://github.com/citation-file-format/citation-file-format/blob/master/CITATION.cff):
+
+```
+cff-version: 0.9-RC1
+message: "If you use, or want to cite, the Citation File Format in this version (0.9-RC1), please use the following metadata."
+references:
+  - type: report
+    authors:
+      - family-names: Druskat
+        given-names: Stephan
+        orcid: 0000-0003-4925-7248
+        role: main-author
+    title: "Citation File Format (CFF)"
+    version: 0.9-RC1
+    repository-code: https://github.com/sdruskat/citation-file-format
+    year: 2017
+    date-published: 2017-10-06
+    doi: 10.5281/zenodo.1003150
+```
