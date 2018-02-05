@@ -24,7 +24,8 @@ layout: false
 ## 1) Motivate why software licenses matter
 ## 2) Provide guidance on which license to choose
 ## 3) Practical tips
-## 4) Discussion
+## 4) Show how to make your code better citable
+## 5) Discussion
 
 ---
 
@@ -35,25 +36,22 @@ layout: false
 - Where does derivative work start and end?
 - How can you protect your ideas, names, and implementations?
 - How software licenses can influence the impact of your code.
-- How to motivate contributions to your code?
+- How to motivate contributions to your code by choice of license?
 
----
 
-# IANAL TINLA
+## Disclaimer
 
-## I am not a lawyer
-
-## This is not legal advice
+- I am not a lawyer
+- This is not legal advice
 
 ---
 
 ## When to worry about software licenses
 
-Beginning of a project is the time when we tend to worry the least about a
-software license
+.blue[Beginning of a project] is the time when ...
 
-Beginning of a project is the time when we should carefully think about a
-license because it may be difficult to change it later
+- we tend to worry the least about a software license
+- it is still relatively simple to change a license
 
 ---
 
