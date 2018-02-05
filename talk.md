@@ -50,8 +50,8 @@ layout: false
 
 .blue[Beginning of a project] is the time when ...
 
-- we tend to worry the least about a software license
-- it is still relatively simple to change a license
+- We tend to worry the least about a software license
+- It is still relatively simple to change a license
 
 ---
 
