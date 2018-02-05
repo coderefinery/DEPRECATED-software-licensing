@@ -205,7 +205,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ### Closed source
 
-- Your recipe is celebrated by The New Yorker magazine.
+- Your cake is celebrated by The New Yorker magazine.
 - People will have difficulties to reproduce your celebrated recipe.
 - Nobody else will improve your recipe.
 - Fewer tasty cakes will get consumed.
