@@ -382,12 +382,12 @@ Is closed-source development compatible with reproducible research?
 
 - Machine-readable
 - Human-writable: easy to read, write and edit
-- Standard format (YAML)
+- Standard format: [YAML](http://yaml.org)
 - Support fine-grained types: software source code, software executable, software container, and virtual machine (image), etc.
 - Versioned
-- DOI, hash, or at least contact information
+- Include DOI, hash, or at least contact information
 - Support all scenarios for authorship and roles for authors
-- Allow to link to ORCID
+- Allow to link to [ORCID](https://orcid.org)
 - Compatibility with other formats (Zenodo, Figshare)
 - Allow unicode, UTF-8 encoding
 
