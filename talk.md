@@ -25,7 +25,7 @@ layout: false
 ## 2) Provide guidance on which license to choose
 ## 3) Practical tips
 ## 4) Show how to make your code better citable
-## 5) Discussion
+## 5) .blue[Discussion]
 
 ---
 
@@ -133,21 +133,17 @@ Is the freedom to ...
 - ... redistribute copies of the software
 - ... improve the software and distribute your improvements to the public
 
-### Does not mean that software costs nothing or that it has no owner
+---
 
-### Fear of being scooped
+## What is free software?
 
-- Releasing under an open source license does not mean you need to share everything immediately
+### .blue[Free software does not mean that software is for free]
+### .blue[Open source license does not mean you need to share everything immediately]
+### .blue[Open source does not mean public domain]: software in the public domain has no owner
 
 ---
 
-## Public domain
-
-- Software in the public domain has no owner
-- Open source does not mean public domain
-- Open source software remains the intellectual property of the copyright owner
-
-### Problems with public domain
+## Problems with public domain
 
 - In certain jurisdictions you cannot just give up your rights without an explicit license
 - Public domain does not provide you a warranty and does not protect you from a lawsuit
