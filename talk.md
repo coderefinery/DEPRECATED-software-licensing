@@ -327,11 +327,6 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 - Agree on a licensing strategy and make it public and visible
 - License your supporting information (images) under
   creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
-- Unrelated but still recommended: make your code easy to cite (use [Zenodo](https://zenodo.org) to assign DOIs to code releases)
-
-### Personal observation
-
-- People are generally good and will cite your code and involve you in derivative projects
 
 ---
 
