@@ -166,6 +166,8 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - In regular intervals you distribute cakes (release binaries).
 - But you can only bake so many.
 
+(cake emoji licensed under CC-BY-SA-4.0, attribution: Emoji One)
+
 ---
 
 ## Software licensing explained with cakes
