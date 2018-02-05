@@ -23,18 +23,118 @@ layout: false
 
 ## 1) Motivate why software licenses matter
 ## 2) Provide guidance on which license to choose
-## 3) Practical tips
-## 4) Show how to make your code better citable
-## 5) .blue[Discussion]
+## 3) Show how to make your code better citable
+## 4) .blue[Discussion]
+
+---
+
+## Software licensing explained with cakes
+
+<img src="img/cake-1.svg" style="width: 15%;"/>
+
+- Imagine you compose a recipe for a really tasty cake
+- Your family and friends love it
+- In regular intervals you distribute cakes (release binaries)
+- But you can only bake so many
+
+---
+
+## Software licensing explained with cakes
+
+<img src="img/cake-1.svg" style="width: 15%;"/>
+
+- Imagine you compose a recipe for a really tasty cake
+- Your family and friends love it
+- In regular intervals you distribute cakes (release binaries)
+- But you can only bake so many
+
+### A friend tells you: why not distribute the recipe?
+
+- Create the OpenCake organization
+- Start a mailing list and put your recipe on GitHub
+- More people will be able to enjoy the cake (increase impact)
+- Maybe somebody will find ways to improve the recipe
+- They will know that it was your idea even though somebody else bakes it
+
+---
+
+## Mrs. X (running a famous restaurant) finds your cake recipe on GitHub
+
+<img src="img/cake-1.svg" style="width: 15%;"/>
+
+- The chef tries it and it is great
+- The chef suggests improvements (derivative work):
+
+<img src="img/cake-2.svg" style="width: 15%;"/>
+
+- It becomes part of the menu
+- Or does it? Depends on your license!
+
+---
+
+## Possible outcomes 1/4: closed or custom
+
+### Closed source
+
+- Your recipe is celebrated by The New Yorker magazine.
+- People will have difficulties to reproduce your celebrated recipe.
+- Nobody else will improve your recipe.
+- Fewer tasty cakes will get consumed.
+
+### Custom license
+
+- No restaurant chef will touch it: too much hassle to employ a lawyer to be sure
+  that the cake can be served to customers.
+- But maybe they will bake it and eat it and not distribute it and that is OK.
+
+---
+
+## Possible outcomes 2/4: permissive
+
+### MIT or Apache or BSD-2
+
+- It is OK to use the recipe and sell the cake.
+- It is OK to not share the improved recipe.
+- If somebody becomes sick, it is not the fault of the OpenCake organization (limit of liability).
+- OpenCake organization may not be able to build on top of the improvements.
+
+### BSD-3
+
+- In addition to the above it is understood that the updated recipe are not endorsed by OpenCake.
+
+---
+
+## Possible outcomes 3/4: reciprocal
+
+### GNU GPL or GNU Affero GPL (for web services)
+
+- If the cake is a part of the menu, the famous restaurant has to share the recipes of the entire menu.
+- You can use their improved recipe and improve it further:
+
+<img src="img/cake-2.svg" style="width: 15%;"/>
+<img src="img/cake-3.svg" style="width: 15%;"/>
+
+---
+
+## Possible outcomes 4/4: share-alike
+
+### GNU Lesser GPL (LGPL)
+
+- The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
+- The restaurant guests have to be able to exchange the cake from the menu by your even further improved cake (dynamic relinking).
+
+### Mozilla Public License v2.0
+
+- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
 
 ---
 
 ## Questions we will try to answer
 
+- How can you protect your ideas, names, and implementations?
 - Can you copy-paste code from Stack Overflow into your code?
 - Who owns the code you write?
-- Where does derivative work start and end?
-- How can you protect your ideas, names, and implementations?
+- Who owns the code you have completely rewritten?
 - How software licenses can influence the impact of your code.
 - How to motivate contributions to your code by choice of license?
 
@@ -256,11 +356,25 @@ Depends on whether you distribute it:
 - No distribution: you can use it in almost any way you can imagine
 - If distributed: depends on the open source license
 
-How can somebody find out that you redistribute open source software breaking license terms
-if you distribute only binaries?
+### How can somebody find out that you redistribute open source software breaking license terms if you distribute only binaries?
+
+---
+
+## Are you allowed to use open source software in a closed source project?
+
+Depends on whether you distribute it:
+
+- No distribution: you can use it in almost any way you can imagine
+- If distributed: depends on the open source license
+
+### How can somebody find out that you redistribute open source software breaking license terms if you distribute only binaries?
 
 - Unethical (and illegal)
-- Problematic for your own court case to demonstrate that somebody else stole your closed source code
+- Problematic for your own court case if somebody else stole your closed source code
+
+---
+
+## Can I copy-paste code from Stack Overflow into my code?
 
 ---
 
