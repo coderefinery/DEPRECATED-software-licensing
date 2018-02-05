@@ -4,7 +4,7 @@ class: middle, inverse
 
 ---
 
-# Software licensing
+# Software licensing and citation
 
 ## [Radovan Bast](http://bast.fr)
 
