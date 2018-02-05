@@ -217,10 +217,9 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - Collective work: aggregation of separately written software
 - Joint work: contribution to a joint work is owned by all of its authors jointly
 
-### Goals for derivative work
+### Why is it important to know?
 
-- Encourage free and open source software development
-- Avoid scaring proprietary software users away
+- Because the license may limit what you can do with the derivative work
 
 Reference: http://www.rosenlaw.com/lj19.htm
 
@@ -242,7 +241,7 @@ Reference: http://www.rosenlaw.com/lj19.htm
 
 ## Clean room design
 
-You need at least two teams
+You need at least two persons/teams
 
 1. Team A studies code A
 2. Team A writes specifications for code A
@@ -251,11 +250,6 @@ You need at least two teams
 5. Team B implements code B based on specifications
 
 Result is **not** derivative work.
-
-### Can I write a code from scratch and call it "Linux"?
-
-- Imagine I have never seen the Linux source code
-- No: Trademark protection
 
 ---
 
