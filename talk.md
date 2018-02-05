@@ -193,7 +193,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - Consider compatibility "up" and "down"
 - Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
   [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
-- Do not use custom licenses: compatibility not clear
+- Do not use custom licenses for open source: compatibility not clear
 
 ### Permissive (I don't care; you can use my code even in commercial code)
 
@@ -206,7 +206,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ### Share-alike but compatible with closed-source code (you can use my code if I can use changes you make to my code)
 
-- Dynamic relinking possible: GNU Lesser GPL
+- Allow dynamic relinking: GNU Lesser GPL
 - Dynamic or static linking: Mozilla Public License v2.0
 
 ---
