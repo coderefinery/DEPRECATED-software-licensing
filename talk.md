@@ -361,7 +361,7 @@ Is closed-source development compatible with reproducible research?
 
 ---
 
-## Good resources
+## Good resources for software licensing
 
 - https://www.software.ac.uk/choosing-open-source-licence
 - http://oss-watch.ac.uk/resources/ipr
@@ -371,3 +371,12 @@ Is closed-source development compatible with reproducible research?
 - http://www.oreilly.com/openbook/osfreesoft/
 - https://tldrlegal.com/
 - https://hintjens.gitbooks.io/social-architecture/content/chapter2.html
+
+---
+
+## Making your code citable
+
+- https://guides.github.com/activities/citable-code/
+- https://zenodo.org
+- https://software.ac.uk/blog/2017-12-12-standard-format-citation-files
+- https://citation-file-format.github.io
