@@ -28,107 +28,6 @@ layout: false
 
 ---
 
-## Software licensing explained with cakes
-
-<img src="img/cake-1.svg" style="width: 15%;"/>
-
-- Imagine you compose a recipe for a really tasty cake
-- Your family and friends love it
-- In regular intervals you distribute cakes (release binaries)
-- But you can only bake so many
-
----
-
-## Software licensing explained with cakes
-
-<img src="img/cake-1.svg" style="width: 15%;"/>
-
-- Imagine you compose a recipe for a really tasty cake
-- Your family and friends love it
-- In regular intervals you distribute cakes (release binaries)
-- But you can only bake so many
-
-### A friend tells you: why not distribute the recipe?
-
-- Create the OpenCake organization
-- Start a mailing list and put your recipe on GitHub
-- More people will be able to enjoy the cake (increase impact)
-- Maybe somebody will find ways to improve the recipe
-- They will know that it was your idea even though somebody else bakes it
-
----
-
-## Mrs. X (running a famous restaurant) finds your cake recipe on GitHub
-
-<img src="img/cake-1.svg" style="width: 15%;"/>
-
-- The chef tries it and it is great
-- The chef suggests improvements (derivative work):
-
-<img src="img/cake-2.svg" style="width: 15%;"/>
-
-- It becomes part of the menu
-- Or does it? Depends on your license!
-
----
-
-## Possible outcomes 1/4: closed or custom
-
-### Closed source
-
-- Your recipe is celebrated by The New Yorker magazine.
-- People will have difficulties to reproduce your celebrated recipe.
-- Nobody else will improve your recipe.
-- Fewer tasty cakes will get consumed.
-
-### Custom license
-
-- No restaurant chef will touch it: too much hassle to employ a lawyer to be sure
-  that the cake can be served to customers.
-- But maybe they will bake it and eat it and not distribute it and that is OK.
-
----
-
-## Possible outcomes 2/4: permissive
-
-### MIT or Apache or BSD-2
-
-- It is OK to use the recipe and sell the cake.
-- It is OK to not share the improved recipe.
-- If somebody becomes sick, it is not the fault of the OpenCake organization (limit of liability).
-- OpenCake organization may not be able to build on top of the improvements.
-
-### BSD-3
-
-- In addition to the above it is understood that the updated recipe are not endorsed by OpenCake.
-
----
-
-## Possible outcomes 3/4: reciprocal
-
-### GNU GPL or GNU Affero GPL (for web services)
-
-- If the cake is a part of the menu, the famous restaurant has to share the recipes of the entire menu.
-- You can use their improved recipe and improve it further:
-
-<img src="img/cake-2.svg" style="width: 15%;"/>
-<img src="img/cake-3.svg" style="width: 15%;"/>
-
----
-
-## Possible outcomes 4/4: share-alike
-
-### GNU Lesser GPL (LGPL)
-
-- The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
-- The restaurant guests have to be able to exchange the cake from the menu by your even further improved cake (dynamic relinking).
-
-### Mozilla Public License v2.0
-
-- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
-
----
-
 ## Questions we will try to answer
 
 - How can you protect your ideas, names, and implementations?
@@ -138,20 +37,10 @@ layout: false
 - How software licenses can influence the impact of your code.
 - How to motivate contributions to your code by choice of license?
 
-
 ## Disclaimer
 
 - I am not a lawyer
 - This is not legal advice
-
----
-
-## When to worry about software licenses
-
-.blue[Beginning of a project] is the time when ...
-
-- We tend to worry the least about a software license
-- It is still relatively simple to change a license
 
 ---
 
@@ -203,25 +92,6 @@ Reference: http://www.rosenlaw.com/oslbook.htm
 
 ---
 
-## Zoo of licenses
-
-- Public domain
-- Closed source or open source
-- Permissive
-- Academic
-- Reciprocal
-- Custom
-- Proprietary licenses/EULAs
-
-### What happens if I do not choose a license?
-
-- Software that you write is copyrighted by default
-- Without a license it is not clear what use breaks copyright
-- Nobody who is careful about her/his code base should use or even look at your code
-- In other words: code without license is not useful for reuse or derivative work
-
----
-
 ## What is free software?
 
 ### Software freedom
@@ -268,42 +138,125 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ---
 
-## Academic licenses vs. reciprocal licenses
+## Zoo of licenses
 
-### Academic/permissive
+- Public domain
+- Closed source or open source
+- Permissive
+- Academic
+- Reciprocal
+- Custom
+- Proprietary licenses/EULAs
 
-- Derivative works do not have to be contributed back into public commons
-- One-way remixable
+### What happens if I do not choose a license?
 
-### Reciprocal
-
-- .red[Derivative works are required to be distributed under the same license]
-- Two-way remixable
-- Copyleft/reciprocity
-- Share-alike
+- Software that you write is copyrighted by default
+- Without a license it is not clear what use breaks copyright
+- Nobody who is careful about her/his code base should use or even look at your code
+- In other words: code without license is not useful for reuse or derivative work
 
 ---
 
-## Recommendations
+## Software licensing explained with cakes
 
-- Consider compatibility "up" and "down"
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
-  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
-- Do not use custom licenses for open source: compatibility not clear
+<img src="img/cake-1.svg" style="width: 15%;"/>
 
-### Permissive (I don't care; you can use my code even in commercial code)
+- Imagine you compose a recipe for a really tasty cake.
+- Your family and friends love it.
+- In regular intervals you distribute cakes (release binaries).
+- But you can only bake so many.
 
-- I need to limit my liability: MIT or Apache or BSD2
-- In addition I wish to have the no-endorsement clause: BSD3
+---
 
-### Reciprocal (you can use my code if I can use your code)
+## Software licensing explained with cakes
 
-- GNU GPL or GNU Affero GPL (for web services)
+<img src="img/cake-1.svg" style="width: 15%;"/>
 
-### Share-alike but compatible with closed-source code (you can use my code if I can use changes you make to my code)
+- Imagine you compose a recipe for a really tasty cake.
+- Your family and friends love it.
+- In regular intervals you distribute cakes (release binaries).
+- But you can only bake so many.
 
-- Allow dynamic relinking: GNU Lesser GPL
-- Dynamic or static linking: Mozilla Public License v2.0
+### A friend tells you: why not distribute the recipe?
+
+- Create the OpenCake organization.
+- Start a mailing list (feedback) and put your recipe on GitHub.
+- More people will be able to enjoy the cake (increase impact).
+- Maybe somebody will find ways to improve the recipe.
+- They will know that it was your idea even though somebody else bakes it.
+
+---
+
+## Mrs. X (running a famous restaurant) finds your cake recipe on GitHub
+
+<img src="img/cake-1.svg" style="width: 15%;"/>
+
+- The chef tries it and it is great.
+- The chef suggests improvements (derivative work):
+
+<img src="img/cake-2.svg" style="width: 15%;"/>
+
+- It becomes part of the menu.
+- Or does it? Depends on your license!
+
+---
+
+## Possible outcomes 1/4: closed or custom
+
+### Closed source
+
+- Your recipe is celebrated by The New Yorker magazine.
+- People will have difficulties to reproduce your celebrated recipe.
+- Nobody else will improve your recipe.
+- Fewer tasty cakes will get consumed.
+
+### Custom license
+
+- No restaurant chef will touch it: too much hassle to employ a lawyer to be sure
+  that the cake can be served to customers.
+- But maybe they will bake it and eat it and not distribute it and that is OK.
+
+---
+
+## Possible outcomes 2/4: permissive
+
+### MIT or Apache or BSD-2
+
+- It is OK to use the recipe and sell the cake.
+- It is OK to not share the improved recipe.
+- If somebody becomes sick, it is not the fault of the OpenCake organization (limit of liability).
+- OpenCake organization may not be able to build on top of the improvements.
+
+### BSD-3
+
+- In addition to the above it is understood that the updated recipe are not endorsed by OpenCake.
+
+---
+
+## Possible outcomes 3/4: reciprocal
+
+### GNU GPL or GNU Affero GPL (for web services)
+
+- If the cake is a part of the menu, the famous restaurant has to share the recipes of the entire menu.
+- You can use their improved recipe and improve it further:
+
+<img src="img/cake-2.svg" style="width: 15%;"/>
+<img src="img/cake-3.svg" style="width: 15%;"/>
+
+- Other restaurants can then reuse the menu and the hope is that we will all eat better food.
+
+---
+
+## Possible outcomes 4/4: share-alike
+
+### GNU Lesser GPL (LGPL)
+
+- The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
+- The restaurant guests have to be able to exchange the cake from the menu by improved cakes from other restaurants (dynamic relinking).
+
+### Mozilla Public License v2.0
+
+- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
 
 ---
 
@@ -431,7 +384,14 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 
 ---
 
-## Practical aspects
+## Recommendations
+
+- Consider license-compatibility "up" and "down"
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
+- Do not use custom licenses for open source: compatibility not clear
+
+### Practical aspects
 
 - Add a LICENSE file to your repository (GitHub understands it)
 - Agree on a licensing strategy and make it public and visible
@@ -503,7 +463,7 @@ Is closed-source development compatible with reproducible research?
 
 ---
 
-Example [CITATION.cff file](https://github.com/citation-file-format/citation-file-format/blob/master/CITATION.cff):
+Example [CITATION.cff](https://github.com/citation-file-format/citation-file-format/blob/master/CITATION.cff) file:
 
 ```
 cff-version: 0.9-RC1
