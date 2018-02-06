@@ -53,6 +53,7 @@ layout: false
 - Copyright is automatically attached to every novel expression of an idea (for a certain amount of years)
 - Software that you write is copyrighted by default
 - No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
+- You cannot put a copyright on an algorithm. Or can you?
 
 ---
 
@@ -126,18 +127,6 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ---
 
-## Questions to ask yourself when looking for the right license
-
-- What do you want to achieve?
-- What do you wish to avoid?
-- Do you want to make money with the project?
-- Do you mind if others do?
-- Do you care about derivative work?
-- Do you want to attract developers?
-- Do you care about impact of your code? Proprietary software users?
-
----
-
 ## Zoo of licenses
 
 - Public domain
@@ -154,6 +143,18 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - Without a license it is not clear what use breaks copyright
 - Nobody who is careful about her/his code base should use or even look at your code
 - In other words: code without license is not useful for reuse or derivative work
+
+---
+
+## Questions to ask yourself when looking for the right license
+
+- What do you want to achieve?
+- What do you wish to avoid?
+- Do you want to make money with the project?
+- Do you mind if others do?
+- Do you care about having access to derivative work?
+- Do you want to attract developers?
+- Do you care about impact of your code? Proprietary software users?
 
 ---
 
@@ -198,7 +199,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 <img src="img/cake-2.svg" style="width: 15%;"/>
 
-- It becomes part of the menu.
+- It becomes part of the restaurant menu.
 - Or does it? Depends on your license!
 
 ---
@@ -388,6 +389,7 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 
 ## Recommendations
 
+- License your code very early in the project
 - Consider license-compatibility "up" and "down"
 - Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
   [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
@@ -432,6 +434,7 @@ Is closed-source development compatible with reproducible research?
 - http://www.oreilly.com/openbook/osfreesoft/
 - https://tldrlegal.com/
 - https://hintjens.gitbooks.io/social-architecture/content/chapter2.html
+- https://users.aalto.fi/~darstr1/cheatsheets/ipr-cheatsheet.pdf
 
 ---
 
