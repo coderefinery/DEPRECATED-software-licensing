@@ -246,7 +246,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 <img src="img/cake-2.svg" style="width: 15%;"/>
 <img src="img/cake-3.svg" style="width: 15%;"/>
 
-- Other restaurants can then reuse the menu and the hope is that we will all eat better food.
+- Other restaurants can then reuse and improve the full menu and the hope is that we will all eat better food.
 
 ---
 
