@@ -48,27 +48,20 @@ layout: false
 
 ### When we create software, we may create patentable .blue[ideas], copyrightable .blue[expressions] of ideas, and trademarkable .blue[names]
 
-- Patents protect ideas
-- Copyright protects the **expression** of an idea
-- Copyright is automatically attached to every novel expression of an idea (for a certain amount of years)
-- Software that you write is copyrighted by default
-- No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
-- You cannot put a copyright on an algorithm. Or can you?
+- Ideas and facts are always free
+- Copyright protects the **creative expression** of an idea
+  - Automatically attached to every novel expression (certain amount of years)
+  - Software that you write is copyrighted by default
+  - No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
+- Patents protect novel technological inventions
+  - Must be applied for, short number (10-20) of years
+  - Must actually be novel and unpublished
+- You cannot put a copyright or patent on an algorithm. Or can you?
 
----
-
-## Should I add a copyright header?
-
-You should mark an original work with a copyright notice in the form:
-
-```
-(c) Copyright <year> <author>
-```
-
-- No longer required to obtain copyright
-- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
-
-Reference: http://www.rosenlaw.com/oslbook.htm
+<!--- This talk is mostly about copyright.  Patents are a much more
+complex and limited concept.  Most software can't be patentatable, and
+if you publish your ideas anyway, patenting is impossible.  So, we
+focus on copyright, as you should too.  -->
 
 ---
 
@@ -93,6 +86,35 @@ Reference: http://www.rosenlaw.com/oslbook.htm
 
 ---
 
+## Relation to scientists
+
+- You come up with ideas
+- Ideas are published in papers
+  - Papers might have limited access, but *anyone* can use the ideas in them
+  - Your goal is to get citations for your paper by people using or improving your ideas
+- Your software may implement an idea in your paper
+  - For your ideas to be used, software should be usable
+  - If people can use or improve your software, they can more easily use your ideas
+  - If people *can't* reuse and extend your software, your research may become a dead end.
+
+<!---
+Maybe scientists aren't the only audience, but may be useful to start here anyway.
+
+- Emphasize that trying to protect your code usually doesn't do you
+  that much good: your ideas are purposely put out there when you
+  publish.
+- If your code isn't free software, people might take your code and
+  run it, but not reuse it.  Following up on your work becomes much
+  harder, since they have to re-create everything.
+
+Copyright protects a certain expression.  If you publish a paper on
+your idea, someone can always read that paper and re-create your
+method.  Don't think that copyright gives you magic protection.
+
+-->
+
+---
+
 ## What is free software?
 
 ### Software freedom
@@ -111,9 +133,18 @@ Is the freedom to ...
 ### .blue[Free software does not mean that software is for free]
 ### .blue[Open source license does not mean you need to share everything immediately]
 ### .blue[Open source does not mean public domain]: software in the public domain has no owner
+### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it.
+
+<!---
+
+Example: Ubuntu is free software.  It is supported by a company called Canonical.  Many people make free software.  Canonical packages it up as Ubuntu.  Because the software guarentees freedom, Canonical can't make Ubuntu closed-source.  Canonical doesn't make money out of the software itself - only their actual value-added services which they offer to companies.
+
+Relate this to the value of what people have and want - much software is so small it isn't/can't be sold, but through a proper license others can help it make an impact.
+
+-->
 
 ---
-
+<!--- move to end with details? -->
 ## Problems with public domain
 
 - In certain jurisdictions you cannot just give up your rights without an explicit license
@@ -126,16 +157,23 @@ not guarantee that software does what it was intended to do; the other end of
 the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ---
+## Broad categories of licenses
 
-## Zoo of licenses
+We have three broad categories:
 
-- Public domain
-- Closed source or open source
-- Permissive
-- Academic
-- Reciprocal
-- Custom
-- Proprietary licenses/EULAs
+- Permissive license
+  - Anyone can made closed source
+- Viral/share alike licenses
+  - Must stay open in future
+  - Commercial and other use OK, as long as stays open
+  - Owners can always go closed later.
+- Proprietary/closed
+  - No one may copy, modify, improve, and so on
+  - The *default*
+
+Use a common one: https://choosealicense.com/
+
+---
 
 ### What happens if I do not choose a license?
 
@@ -143,6 +181,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - Without a license it is not clear what use breaks copyright
 - Nobody who is careful about her/his code base should use or even look at your code
 - In other words: code without license is not useful for reuse or derivative work
+- Your ideas won't get used
 
 ---
 
@@ -162,12 +201,16 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 <img src="img/cake-1.svg" style="width: 15%;"/>
 
-- Imagine you compose a recipe for a really tasty cake.
-- Your family and friends love it.
+- Imagine you compose a recipe for a really tasty cake (a great idea).
 - In regular intervals you distribute cakes (release binaries).
+- Your family and friends love it.
 - But you can only bake so many.
 
 (cake emoji licensed under CC-BY-SA-4.0, attribution: Emoji One)
+
+<!--- Perhaps may be worth saying that this is a metaphor - the
+ingredients list and basic instructions simply facts, so not
+protectable.  However, your description *is* protectable. -->
 
 ---
 
@@ -175,22 +218,38 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 <img src="img/cake-1.svg" style="width: 15%;"/>
 
-- Imagine you compose a recipe for a really tasty cake.
-- Your family and friends love it.
+- Imagine you compose a recipe for a really tasty cake (a great idea).
 - In regular intervals you distribute cakes (release binaries).
+- Your family and friends love it.
 - But you can only bake so many.
 
-### A friend tells you: why not distribute the recipe?
+---
 
-- Create the OpenCake organization.
-- Start a mailing list (feedback) and put your recipe on GitHub.
+## Possible outcomes 0/4: closed
+
+### Closed source (recipe never released)
+
+- Your cake is celebrated by The New Yorker magazine.
+- People will have difficulties to reproduce your celebrated recipe.
+- Nobody else will improve your recipe.
+- Bad copycats will appear, you don't get any credit.
+- Fewer tasty cakes will get consumed.
+
+---
+
+## A friend tells you: why not distribute the recipe?
+
+- Put your recipe on GitHub.
+- Get feedback / start a mailing list.
 - More people will be able to enjoy the cake (increase impact).
 - Maybe somebody will find ways to improve the recipe.
-- They will know that it was your idea even though somebody else bakes it.
+- Everyone will know that it was your idea even though somebody else bakes it.
 
 ---
 
 ## Mrs. X (running a famous restaurant) finds your cake recipe on GitHub
+
+Let's say you did put the recipe on GitHub.
 
 <img src="img/cake-1.svg" style="width: 15%;"/>
 
@@ -202,6 +261,11 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - It becomes part of the restaurant menu.
 - Or does it? Depends on your license!
 
+<!--- What is most important is *how are the changes handled*.  Since
+you are giving the recipe out yourself, people can use it "personally"
+however they want.  But if they want to improve/reuse/redistribute it,
+then what?  -->
+
 ---
 
 ## Possible outcomes 1/4: closed or custom
@@ -211,6 +275,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 - Your cake is celebrated by The New Yorker magazine.
 - People will have difficulties to reproduce your celebrated recipe.
 - Nobody else will improve your recipe.
+- Bad copycats will appear, you don't get any credit.
 - Fewer tasty cakes will get consumed.
 
 ### Custom license
@@ -223,43 +288,71 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
 
 ## Possible outcomes 2/4: permissive
 
-### MIT or Apache or BSD-2
+### License: MIT or Apache or BSD-2
 
 - It is OK to use the recipe and sell the cake.
 - It is OK to not share the improved recipe.
 - If somebody becomes sick, it is not the fault of the OpenCake organization (limit of liability).
-- OpenCake organization may not be able to build on top of the improvements.
+- You may not get the improvements back to use yourself.
 
-### BSD-3
+### License: BSD-3
 
 - In addition to the above it is understood that the updated recipe are not endorsed by OpenCake.
 
 ---
 
-## Possible outcomes 3/4: reciprocal
+## Possible outcomes 3/4: viral
 
-### GNU GPL or GNU Affero GPL (for web services)
+### License: GNU GPL or GNU Affero GPL (for web services)
 
-- If the cake is a part of the menu, the famous restaurant has to share the recipes of the entire menu.
+- If the cake is a part of the menu, the famous restaurant has to share the recipes of the **entire menu**.
 - You can use their improved recipe and improve it further:
 
 <img src="img/cake-2.svg" style="width: 15%;"/>
 <img src="img/cake-3.svg" style="width: 15%;"/>
 
 - Other restaurants can then reuse and improve the full menu and the hope is that we will all eat better food.
+- You support open restaurants.  You can use everything they do, too.
 
 ---
 
 ## Possible outcomes 4/4: share-alike
 
-### GNU Lesser GPL (LGPL)
+### License: GNU Lesser GPL (LGPL)
 
 - The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
 - The restaurant guests have to be able to exchange the cake from the menu by improved cakes from other restaurants (dynamic relinking).
 
-### Mozilla Public License v2.0
+### License: Mozilla Public License v2.0
 
 - Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
+
+---
+
+## What outcomes did we have?
+
+- If you want to make money selling cakes, you keep it closed.
+- If you want a bigger impact, you release with a strategic license.
+
+Examples from the software world:
+- BSD Unix (permissive, included in Windows)
+- Linux (viral, derivatives are still open)
+- ...
+
+---
+
+TODO: put in some sort intermediate of wrap-up here.  ("My personal choices" here?)
+
+TODO: Relate back to science and reproducible research here.
+
+After this point we have assorted topics, which can be gone through
+faster or slower depending on the particular audience.
+
+
+---
+
+# Assorted topics
+
 
 ---
 
@@ -385,6 +478,12 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 - Open source your code to make sure you are not locked out of your own code
   once you change affiliation (you might need to inform your university)
 
+<!--- Fun story: I once had a friend who worked at IBM.  In their
+division, they always tried to open-source what they worked on,
+because if they didn't some other division could come and take it away
+from them to put in some product.  By open sourcing, they ensure even
+their internal rights to do their work! -->
+
 ---
 
 ## Recommendations
@@ -401,6 +500,30 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 - Agree on a licensing strategy and make it public and visible
 - License your supporting information (images) under
   creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
+
+---
+
+## Should I add a copyright header?
+
+You should mark an original work with a copyright notice in the form:
+
+```
+(c) Copyright <year> <author>
+```
+
+- No longer required to obtain copyright
+- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
+
+Reference: http://www.rosenlaw.com/oslbook.htm
+
+---
+TODO
+
+
+- IP is a minefield.  In many cases, it is used inexactly or loosely unless you need a hammer to hit someone.
+- What if I want someone to cite me?  (don't make it a license criteria, you become incompatible.  This is always required by scientific ethics anyway!)
+- We are moving towards a future where all abstract things are owned.  Is this good?
+- GPL-type licenses generally match what people expect for "unlicensed/noncommercial" anyway!
 
 ---
 
