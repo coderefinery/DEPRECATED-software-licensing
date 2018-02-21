@@ -314,6 +314,11 @@ then what?  -->
 - Other restaurants can then reuse and improve the full menu and the hope is that we will all eat better food.
 - You support open restaurants.  You can use everything they do, too.
 
+<!--- Example of benefits of virality in software: Linksys routers and
+GPL's kernel image. Some company used linux, didn't distribute source.
+They were fourced to distribute it, and that has directly led to
+a huge community of firmware modders.  -->
+
 ---
 
 ## Possible outcomes 4/4: share-alike
@@ -338,6 +343,124 @@ Examples from the software world:
 - BSD Unix (permissive, included in Windows)
 - Linux (viral, derivatives are still open)
 - ...
+
+---
+## Back to software.  What outcomes can **you** have?
+
+---
+## Back to software.  What outcomes can **you** have?
+
+### Closed or unlicensed
+- Closed appropritae if it contains trade secrets or patentable material (**rare**)
+- Closed will give limited long-term impact.
+
+---
+## Back to software.  What outcomes can **you** have?
+
+### Closed or unlicensed
+- Closed appropritae if it contains trade secrets or patentable material (**rare**)
+- Closed will give limited long-term impact.
+
+### Open and licensed
+- The best ideas incorporated into larger open source software
+- Community of improvements
+- Science is reproducible
+- GPL still gives original creators more rights than other users, and
+  is recommended if you might want to commercialize later.
+
+---
+## Zoo of licenses
+
+- (most permissive)
+- Public domain (CC0)
+- Permissive (MIT, BSD) (CC-BY)
+- Patent protection (Apache)
+- Share-alike (LGPL) (CC-BY-SA)
+- Viral (GPL2/3)
+- Viral including webservices (AGPL)
+- (most freedom-preserving)
+
+There are *many* licenses, but you should not be creative.  Use the
+most common for your situation!
+
+http://choosealicense.com
+
+<!--- Don't spend much time on this, just make the point there are -->
+<!--many options.  Go to next slide -->
+
+---
+## Recommended licenses
+
+- Permissive: MIT
+- Concerned about patents: Apache
+- Viral: GPLv3 or Apache.
+
+---
+
+## Who owns the copyright for software you write?
+
+- You?
+- Your university?
+
+### Intellectual property depends on the country!
+
+- So-called works made for hire
+- Personal experience: if you ask legal experts it can get complicated
+- Nobody can take away code from you if you develop in your free time on your hardware using your own network
+
+### Even within a country it can vary depending on the employer (public vs private)
+
+---
+
+## If you own your software
+
+- You can relicense
+- You can dual-license
+
+### If you do not own your software, you can:
+
+- Request a transfer of ownership (check with your university)
+- Open source your code to make sure you are not locked out of your own code
+  once you change affiliation (you might need to inform your university)
+
+<!--- Fun story: I once had a friend who worked at IBM.  In their
+division, they always tried to open-source what they worked on,
+because if they didn't some other division could come and take it away
+from them to put in some product.  By open sourcing, they ensure even
+their internal rights to do their work! -->
+
+---
+
+## Recommendations
+
+- License your code very early in the project
+- Consider license-compatibility "up" and "down"
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
+- Do not use custom licenses for open source: compatibility not clear
+
+### Practical aspects
+
+- Add a LICENSE file to your repository (GitHub understands it)
+- Agree on a licensing strategy and make it public and visible
+- License your supporting information (images) under
+  creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
+
+---
+
+## Should I add a copyright header?
+
+You should mark an original work with a copyright notice in the form:
+
+```
+(c) Copyright <year> <author>
+```
+
+- No longer required to obtain copyright
+- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
+
+Reference: http://www.rosenlaw.com/oslbook.htm
+
 
 ---
 
@@ -450,71 +573,6 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 - Consider drafting a contributor license agreement (CLA) and copyright assignment (CA)
 - Make contributors aware that contributions may imply CLA and CA
 
----
-
-## Who owns the copyright for software you write?
-
-- You?
-- Your university?
-
-### Intellectual property depends on the country!
-
-- So-called works made for hire
-- Personal experience: if you ask legal experts it can get complicated
-- Nobody can take away code from you if you develop in your free time on your hardware using your own network
-
-### Even within a country it can vary depending on the employer (public vs private)
-
----
-
-## If you own your software
-
-- You can relicense
-- You can dual-license
-
-### If you do not own your software, you can:
-
-- Request a transfer of ownership (check with your university)
-- Open source your code to make sure you are not locked out of your own code
-  once you change affiliation (you might need to inform your university)
-
-<!--- Fun story: I once had a friend who worked at IBM.  In their
-division, they always tried to open-source what they worked on,
-because if they didn't some other division could come and take it away
-from them to put in some product.  By open sourcing, they ensure even
-their internal rights to do their work! -->
-
----
-
-## Recommendations
-
-- License your code very early in the project
-- Consider license-compatibility "up" and "down"
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
-  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
-- Do not use custom licenses for open source: compatibility not clear
-
-### Practical aspects
-
-- Add a LICENSE file to your repository (GitHub understands it)
-- Agree on a licensing strategy and make it public and visible
-- License your supporting information (images) under
-  creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
-
----
-
-## Should I add a copyright header?
-
-You should mark an original work with a copyright notice in the form:
-
-```
-(c) Copyright <year> <author>
-```
-
-- No longer required to obtain copyright
-- However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
-
-Reference: http://www.rosenlaw.com/oslbook.htm
 
 ---
 TODO
