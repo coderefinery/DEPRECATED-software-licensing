@@ -10,6 +10,10 @@ class: middle, inverse
 
 ### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
 
+## [Richard Darst](http://rkd.zgib.net)
+
+### [Aalto University](https://www.aalto.fi)
+
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Acknowledgements:
@@ -43,19 +47,29 @@ layout: false
 - This is not legal advice
 
 ---
+## Who owns ideas and data?
+
+- Intellectual property: protect abstract creations
+- Data, ideas, etc are easy to copy
+  - Except legally, *not* allowed by default
+- If you don't give permission, your work dies and rots
+
+
+---
 
 ## Patents vs. copyright
 
 ### When we create software, we may create patentable .blue[ideas], copyrightable .blue[expressions] of ideas, and trademarkable .blue[names]
 
-- Ideas and facts are always free
-- Copyright protects the **creative expression** of an idea
+- **Ideas and facts** are *always free*
+- *Copyright protects* the **creative expression** of an idea
   - Automatically attached to every novel expression (certain amount of years)
   - Software that you write is copyrighted by default
   - No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
-- Patents protect novel technological inventions
+- *Patents* protect **novel technological inventions**
   - Must be applied for, short number (10-20) of years
-  - Must actually be novel and unpublished
+  - Must actually be novel and not yet published
+- *Trademark* is the right to not be impersonated
 - You cannot put a copyright or patent on an algorithm. Or can you?
 
 <!--- This talk is mostly about copyright.  Patents are a much more
@@ -75,24 +89,24 @@ focus on copyright, as you should too.  -->
 
 ## These slides are an expression of an idea
 
-- Can I patent them? No
-- Do I need to copyright them? No (copyright by default)
-- Are you allowed to share them via email or Twitter or similar? Yes!
+- Can I patent them? .blue[No]
+- Do I need to copyright them? .blue[No (copyright by default)]
+- Are you allowed to share them via email or Twitter or similar? .blue[Yes!]
 
 ### Yes to sharing!
 
-- Sharing explicitly allowed by creative commons license (CC BY-SA 4.0)
+- Sharing explicitly allowed by creative commons license (CC BY-SA 4.0) on the first page
 - Otherwise probably fine according to "fair use"
 
 ---
 
 ## Relation to scientists
 
-- You come up with ideas
-- Ideas are published in papers
+- You come up with **ideas**
+- Ideas are published in **papers**
   - Papers might have limited access, but *anyone* can use the ideas in them
   - Your goal is to get citations for your paper by people using or improving your ideas
-- Your software may implement an idea in your paper
+- Your **software** may implement an idea in your paper
   - For your ideas to be used, software should be usable
   - If people can use or improve your software, they can more easily use your ideas
   - If people *can't* reuse and extend your software, your research may become a dead end.
@@ -144,60 +158,8 @@ Relate this to the value of what people have and want - much software is so smal
 -->
 
 ---
-<!--- move to end with details? -->
-## Problems with public domain
 
-- In certain jurisdictions you cannot just give up your rights without an explicit license
-- Public domain does not provide you a warranty and does not protect you from a lawsuit
-
-Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
-
-Public license releases the original author from all responsibilities, and does
-not guarantee that software does what it was intended to do; the other end of
-the spectrum is a guaranteed service and responsibility for bugfixing.
-
----
-## Broad categories of licenses
-
-We have three broad categories:
-
-- Permissive license
-  - Anyone can made closed source
-- Viral/share alike licenses
-  - Must stay open in future
-  - Commercial and other use OK, as long as stays open
-  - Owners can always go closed later.
-- Proprietary/closed
-  - No one may copy, modify, improve, and so on
-  - The *default*
-
-Use a common one: https://choosealicense.com/
-
----
-
-### What happens if I do not choose a license?
-
-- Software that you write is copyrighted by default
-- Without a license it is not clear what use breaks copyright
-- Nobody who is careful about her/his code base should use or even look at your code
-- In other words: code without license is not useful for reuse or derivative work
-- Your ideas won't get used
-
----
-
-## Questions to ask yourself when looking for the right license
-
-- What do you want to achieve?
-- What do you wish to avoid?
-- Do you want to make money with the project?
-- Do you mind if others do?
-- Do you care about having access to derivative work?
-- Do you want to attract developers?
-- Do you care about impact of your code? Proprietary software users?
-
----
-
-## Software licensing explained with cakes
+## Software licensing and open source explained with cakes
 
 <img src="img/cake-1.svg" style="width: 15%;"/>
 
@@ -301,7 +263,20 @@ then what?  -->
 
 ---
 
-## Possible outcomes 3/4: viral
+## Possible outcomes 3/4: share-alike
+
+### License: GNU Lesser GPL (LGPL)
+
+- The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
+- The restaurant guests have to be able to exchange the cake from the menu by improved cakes from other restaurants (dynamic relinking).
+
+### License: Mozilla Public License v2.0
+
+- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
+
+---
+
+## Possible outcomes 4/4: viral
 
 ### License: GNU GPL or GNU Affero GPL (for web services)
 
@@ -321,28 +296,55 @@ a huge community of firmware modders.  -->
 
 ---
 
-## Possible outcomes 4/4: share-alike
+## What outcomes did we have?
 
-### License: GNU Lesser GPL (LGPL)
+- Others **re-implemented** our idea: little credit
+- Others could use in **closed-source**
+  - BSD Unix (permissive, included in Windows)
+- Others could use, **had to re-share**
+  - Linux (viral, derivatives are still open)
 
-- The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
-- The restaurant guests have to be able to exchange the cake from the menu by improved cakes from other restaurants (dynamic relinking).
+In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL)
 
-### License: Mozilla Public License v2.0
+---
+## Broad categories of licenses
 
-- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
+We have three broad categories:
+
+- Permissive license
+  - Anyone can made closed source
+- Viral/share alike licenses
+  - Must stay open in future
+  - Commercial and other use OK, as long as stays open
+  - Owners can always go closed later.
+- Proprietary/closed
+  - No one may copy, modify, improve, and so on
+  - The *default*
+
+Use a common one: https://choosealicense.com/
 
 ---
 
-## What outcomes did we have?
+### What happens if I do not choose a license?
 
-- If you want to make money selling cakes, you keep it closed.
-- If you want a bigger impact, you release with a strategic license.
+- Software that you write is copyrighted by default
+- Without a license it is not clear what use breaks copyright
+- Nobody who is careful about her/his code base should use or even look at your code
+- In other words: code without license is not useful for reuse or derivative work
+- Your ideas won't get used
 
-Examples from the software world:
-- BSD Unix (permissive, included in Windows)
-- Linux (viral, derivatives are still open)
-- ...
+---
+
+## Questions to ask yourself when looking for the right license
+
+- What do you want to achieve?
+- What do you wish to avoid?
+- Do you want to make money with the project?
+- Do you mind if others do?
+- Do you care about having access to derivative work?
+- Do you want to attract developers?
+- Do you care about impact of your code? Proprietary software users?
+
 
 ---
 ## Back to software.  What outcomes can **you** have?
@@ -351,6 +353,7 @@ Examples from the software world:
 ## Back to software.  What outcomes can **you** have?
 
 ### Closed or unlicensed
+- If you want to make money selling "cakes", you keep it closed.
 - Closed appropritae if it contains trade secrets or patentable material (**rare**)
 - Closed will give limited long-term impact.
 
@@ -358,10 +361,12 @@ Examples from the software world:
 ## Back to software.  What outcomes can **you** have?
 
 ### Closed or unlicensed
+- If you want to make money selling "cakes", you keep it closed.
 - Closed appropritae if it contains trade secrets or patentable material (**rare**)
 - Closed will give limited long-term impact.
 
 ### Open and licensed
+- Broader impact in most cases.
 - The best ideas incorporated into larger open source software
 - Community of improvements
 - Science is reproducible
@@ -380,8 +385,8 @@ Examples from the software world:
 - Viral including webservices (AGPL)
 - (most freedom-preserving)
 
-There are *many* licenses, but you should not be creative.  Use the
-most common for your situation!
+There are *many* licenses, but you should not be creative.  **Use the
+most common** for your situation, license proliferation is a real problem.
 
 http://choosealicense.com
 
@@ -394,6 +399,8 @@ http://choosealicense.com
 - Permissive: MIT
 - Concerned about patents: Apache
 - Viral: GPLv3 or Apache.
+
+http://choosealicense.com
 
 ---
 
@@ -421,7 +428,7 @@ http://choosealicense.com
 
 - Request a transfer of ownership (check with your university)
 - Open source your code to make sure you are not locked out of your own code
-  once you change affiliation (you might need to inform your university)
+  once you change affiliation (you might need to ask your university)
 
 <!--- Fun story: I once had a friend who worked at IBM.  In their
 division, they always tried to open-source what they worked on,
@@ -431,20 +438,25 @@ their internal rights to do their work! -->
 
 ---
 
-## Recommendations
+## Practical aspects
+
+### Running a project
 
 - License your code very early in the project
 - Consider license-compatibility "up" and "down"
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
-  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
-- Do not use custom licenses for open source: compatibility not clear
+- Agree on a licensing strategy and make it public and visible
 
-### Practical aspects
+### Licensing
 
 - Add a LICENSE file to your repository (GitHub understands it)
-- Agree on a licensing strategy and make it public and visible
+  - Use GitHub web to add file named LICENSE and it helps you select!
 - License your supporting information (images) under
   creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
+
+### Citations and credit
+- Open source license can't demand citation, but it is required by science ethics anyway.
+- Make it as easy as possible!  Clearly say what you want cited.
+- [Citation file format](https://github.com/citation-file-format/citation-file-format)
 
 ---
 
@@ -456,17 +468,79 @@ You should mark an original work with a copyright notice in the form:
 (c) Copyright <year> <author>
 ```
 
-- No longer required to obtain copyright
+- Does NOT give you copyright - copyright is automatic even if there is no notification
 - However it provides added protection: defendant cannot argue s/he was unaware who owned the copyright on the work
 
 Reference: http://www.rosenlaw.com/oslbook.htm
 
+---
+
+## What if someone contributes to my project?  Or vice versa?
+
+- General convention: contributing to a project with an existing license
+  - Accepts that license for contribution
+  - Does NOT transfer ownership (project has multiple owners, which is OK)
+- You only need to prove if needed: for large projects, maybe you request something more explicit.
+
+<img src="img/floss-license-slide-image.png" style="float:right; width: 60%; margin-right: -10%"/>
+
+### Or I use someone else's code?
+- You can, if the [licenses are compatible](https://en.wikipedia.org/wiki/License_compatibility)
+- You do *not* then own it (multiple owners, which is OK)
+- Should *document* licenses, including ownership of different parts (comment is minimum)
+- Custom licenses are *hard* and bad.
+
+Image from [David A. Wheeler's license slide](https://www.dwheeler.com/essays/floss-license-slide.html), CC-BY-SA 3.0.  This is compatible with CC-BY-SA 4.0 (this presentation), so we can use it.
 
 ---
 
-TODO: put in some sort intermediate of wrap-up here.  ("My personal choices" here?)
+## Recommendations
 
-TODO: Relate back to science and reproducible research here.
+- You *can't* ignore licensing: default is "no one can use"
+- The *earlier* you license, the easier it is.
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
+- Do not use custom licenses for open source: compatibility not clear
+- Make it easy to cite your code
+
+---
+
+## My personal choices
+
+### When I have the choice, I prefer to ...
+
+- ... use an open source code (scientific reproducibility)
+- ... develop under an open source license to keep access to my code
+- ... develop under a share-alike license in order to not lock myself out of improvements to my code
+- ... contribute to a share-alike licensed software of others because I know they won't run away with my code
+- ... distribute my code under a share-alike license to motivate people like me to contribute
+
+### When I am "forced" to contribute to a closed-source code ...
+
+- ... I contribute my code explicitly under LGPL or MPL (to not lose control)
+
+### Food for thought
+
+Is closed-source development compatible with reproducible research?
+
+---
+
+## Good resources for software licensing
+
+- https://www.software.ac.uk/choosing-open-source-licence
+- https://choosealicense.com
+- http://oss-watch.ac.uk/resources/ipr
+- http://www.rosenlaw.com/oslbook.htm
+- http://depth-first.com/articles/2006/12/29/dispelling-open-source-confusion-an-introduction-to-licenses/
+- http://blog.milkingthegnu.org/2008/03/10-answers-for.html
+- http://www.oreilly.com/openbook/osfreesoft/
+- https://tldrlegal.com/
+- https://hintjens.gitbooks.io/social-architecture/content/chapter2.html
+- https://users.aalto.fi/~darstr1/cheatsheets/ipr-cheatsheet.pdf
+
+
+---
+## End main talk
 
 After this point we have assorted topics, which can be gone through
 faster or slower depending on the particular audience.
@@ -476,6 +550,76 @@ faster or slower depending on the particular audience.
 
 # Assorted topics
 
+
+---
+
+## Making your code citable
+
+### Create a DOI for each release
+
+- https://guides.github.com/activities/citable-code/
+- https://zenodo.org
+
+---
+
+## Citation file format
+
+- [A standard format for CITATION files](https://software.ac.uk/blog/2017-12-12-standard-format-citation-files)
+- [Citation File Format (CFF) 1.0.3](https://citation-file-format.github.io)
+
+
+### Specifications
+
+- Machine-readable
+- Human-writable: easy to read, write and edit
+- Standard format: [YAML](http://yaml.org)
+- Support fine-grained types: software source code, software executable, software container, and virtual machine (image), etc.
+- Versioned
+- Include DOI, hash, or at least contact information
+- Support all scenarios for authorship and roles for authors
+- Allow to link to [ORCID](https://orcid.org)
+- Compatibility with other formats (Zenodo, Figshare)
+- Allow unicode, UTF-8 encoding
+
+---
+
+Example [CITATION.cff](https://github.com/citation-file-format/citation-file-format/blob/master/CITATION.cff) file:
+
+```
+cff-version: 0.9-RC1
+message: "If you use, or want to cite, the Citation File Format in this version (0.9-RC1), please use the following metadata."
+references:
+  - type: report
+    authors:
+      - family-names: Druskat
+        given-names: Stephan
+        orcid: 0000-0003-4925-7248
+        role: main-author
+    title: "Citation File Format (CFF)"
+    version: 0.9-RC1
+    repository-code: https://github.com/sdruskat/citation-file-format
+    year: 2017
+    date-published: 2017-10-06
+    doi: 10.5281/zenodo.1003150
+```
+
+---
+
+## Can I copy-paste code from Stack Overflow into my code?
+
+---
+
+## Can I copy-paste code from Stack Overflow into my code?
+
+- Non-code: CC BY-SA 3.0 with attribution required
+- Code: MIT license
+
+### You are recommended to do one of these 2 things, or both:
+
+- A) Add a comment to your code that links back to the post where you found it, or
+- B) Comply with the MIT as it is typically used, by including the full license text in your source
+
+https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
 
 ---
 
@@ -546,24 +690,6 @@ Depends on whether you distribute it:
 
 ---
 
-## Can I copy-paste code from Stack Overflow into my code?
-
----
-
-## Can I copy-paste code from Stack Overflow into my code?
-
-- Non-code: CC BY-SA 3.0 with attribution required
-- Code: MIT license
-
-### You are recommended to do one of these 2 things, or both:
-
-- A) Add a comment to your code that links back to the post where you found it, or
-- B) Comply with the MIT as it is typically used, by including the full license text in your source
-
-https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange
-
----
-
 ## Can I change the license later?
 
 - The copyright owner can
@@ -573,98 +699,29 @@ https://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using
 - Consider drafting a contributor license agreement (CLA) and copyright assignment (CA)
 - Make contributors aware that contributions may imply CLA and CA
 
+---
+<!--- move to end with details? -->
+## Problems with public domain
+
+- In certain jurisdictions you cannot just give up your rights without an explicit license
+- Public domain does not provide you a warranty and does not protect you from a lawsuit
+
+Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
+
+Public license releases the original author from all responsibilities, and does
+not guarantee that software does what it was intended to do; the other end of
+the spectrum is a guaranteed service and responsibility for bugfixing.
+
+
+
+
 
 ---
+<!---
 TODO
 
 
-- IP is a minefield.  In many cases, it is used inexactly or loosely unless you need a hammer to hit someone.
 - What if I want someone to cite me?  (don't make it a license criteria, you become incompatible.  This is always required by scientific ethics anyway!)
 - We are moving towards a future where all abstract things are owned.  Is this good?
 - GPL-type licenses generally match what people expect for "unlicensed/noncommercial" anyway!
-
----
-
-## My personal choices
-
-### When I have the choice, I prefer to ...
-
-- ... use an open source code (scientific reproducibility)
-- ... develop under an open source license to keep access to my code
-- ... develop under a share-alike license in order to not lock myself out of improvements to my code
-- ... contribute to a share-alike licensed software of others because I know they won't run away with my code
-- ... distribute my code under a share-alike license to motivate people like me to contribute
-
-### When I am "forced" to contribute to a closed-source code ...
-
-- ... I contribute my code explicitly under LGPL or MPL (to not lose control)
-
-### Food for thought
-
-Is closed-source development compatible with reproducible research?
-
----
-
-## Good resources for software licensing
-
-- https://www.software.ac.uk/choosing-open-source-licence
-- http://oss-watch.ac.uk/resources/ipr
-- http://www.rosenlaw.com/oslbook.htm
-- http://depth-first.com/articles/2006/12/29/dispelling-open-source-confusion-an-introduction-to-licenses/
-- http://blog.milkingthegnu.org/2008/03/10-answers-for.html
-- http://www.oreilly.com/openbook/osfreesoft/
-- https://tldrlegal.com/
-- https://hintjens.gitbooks.io/social-architecture/content/chapter2.html
-- https://users.aalto.fi/~darstr1/cheatsheets/ipr-cheatsheet.pdf
-
----
-
-## Making your code citable
-
-### Create a DOI for each release
-
-- https://guides.github.com/activities/citable-code/
-- https://zenodo.org
-
----
-
-## Citation file format
-
-- [A standard format for CITATION files](https://software.ac.uk/blog/2017-12-12-standard-format-citation-files)
-- [Citation File Format (CFF) 1.0.3](https://citation-file-format.github.io)
-
-
-### Specifications
-
-- Machine-readable
-- Human-writable: easy to read, write and edit
-- Standard format: [YAML](http://yaml.org)
-- Support fine-grained types: software source code, software executable, software container, and virtual machine (image), etc.
-- Versioned
-- Include DOI, hash, or at least contact information
-- Support all scenarios for authorship and roles for authors
-- Allow to link to [ORCID](https://orcid.org)
-- Compatibility with other formats (Zenodo, Figshare)
-- Allow unicode, UTF-8 encoding
-
----
-
-Example [CITATION.cff](https://github.com/citation-file-format/citation-file-format/blob/master/CITATION.cff) file:
-
-```
-cff-version: 0.9-RC1
-message: "If you use, or want to cite, the Citation File Format in this version (0.9-RC1), please use the following metadata."
-references:
-  - type: report
-    authors:
-      - family-names: Druskat
-        given-names: Stephan
-        orcid: 0000-0003-4925-7248
-        role: main-author
-    title: "Citation File Format (CFF)"
-    version: 0.9-RC1
-    repository-code: https://github.com/sdruskat/citation-file-format
-    year: 2017
-    date-published: 2017-10-06
-    doi: 10.5281/zenodo.1003150
-```
+-->
