@@ -10,7 +10,7 @@ class: middle, inverse
 
 ### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
 
-## Richard Darst
+## [Richard Darst](http://rkd.zgib.net)
 
 ### [Aalto University](https://www.aalto.fi)
 
@@ -393,8 +393,8 @@ Examples from the software world:
 - Viral including webservices (AGPL)
 - (most freedom-preserving)
 
-There are *many* licenses, but you should not be creative.  Use the
-most common for your situation!
+There are *many* licenses, but you should not be creative.  **Use the
+most common** for your situation, license proliferation is a real problem.
 
 http://choosealicense.com
 
@@ -461,6 +461,11 @@ their internal rights to do their work! -->
 - License your supporting information (images) under
   creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
 
+### Citations and credit
+- Open source license can't demand citation, but it is required by science ethics anyway.
+- Make it as easy as possible!  Clearly say what you want cited.
+- [Citation file format](https://github.com/citation-file-format/citation-file-format)
+
 ---
 
 ## Should I add a copyright header?
@@ -485,13 +490,15 @@ Reference: http://www.rosenlaw.com/oslbook.htm
   - Does NOT transfer ownership (project has multiple owners, which is OK)
 - You only need to prove if needed: for large projects, maybe you request something more explicit.
 
+<img src="img/floss-license-slide-image.png" style="float:right; width: 60%; margin-right: -10%"/>
+
 ### Or I use someone else's code?
 - You can, if the [licenses are compatible](https://en.wikipedia.org/wiki/License_compatibility)
-  - Search for charts
-- You do *not* then own it: multiple owners, which is OK
-- Should *document* licenses, including ownership of different parts
-  - Ideally in license file/headers, minimally in comments with source and which license.
-- If custom license, this becomes *hard*.  Don't use custom licenses!
+- You do *not* then own it (multiple owners, which is OK)
+- Should *document* licenses, including ownership of different parts (comment is minimum)
+- Custom licenses are *hard* and bad.
+
+Image from [David A. Wheeler's license slide](https://www.dwheeler.com/essays/floss-license-slide.html), CC-BY-SA 3.0.  This is compatible with CC-BY-SA 4.0 (this presentation), so we can use it.
 
 ---
 
@@ -542,8 +549,6 @@ Is closed-source development compatible with reproducible research?
 
 ---
 ## End main talk
-
----
 
 After this point we have assorted topics, which can be gone through
 faster or slower depending on the particular audience.
