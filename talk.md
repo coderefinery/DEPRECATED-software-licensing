@@ -317,7 +317,7 @@ Use a common one: https://choosealicense.com
 
 ---
 
-### What happens if I do not choose a license?
+## What happens if I do not choose a license?
 
 - Software that you write is copyrighted by default
 - Without a license it is not clear what use breaks copyright
