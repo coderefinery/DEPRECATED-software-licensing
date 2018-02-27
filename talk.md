@@ -391,6 +391,7 @@ http://choosealicense.com
 - Permissive: MIT
 - Concerned about patents: Apache
 - Viral: GPLv3 or Apache.
+- Share-alike: LGPLv3 or MPLv2.0
 
 http://choosealicense.com
 
