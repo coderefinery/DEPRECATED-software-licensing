@@ -49,9 +49,10 @@ layout: false
 ---
 ## Who owns ideas and data?
 
-- Intellectual property: protect abstract creations to encourage creators.
-- Data, ideas, etc are easy to copy, but if you want anyone to use them, you have to give them permission!
-- Or your work dies and rots.
+- Intellectual property: protect abstract creations
+- Data, ideas, etc are easy to copy
+  - Except legally, *not* allowed by default
+- If you don't give permission, your work dies and rots
 
 
 ---
@@ -60,15 +61,15 @@ layout: false
 
 ### When we create software, we may create patentable .blue[ideas], copyrightable .blue[expressions] of ideas, and trademarkable .blue[names]
 
-- Ideas and facts are always free
-- Copyright protects the **creative expression** of an idea
+- **Ideas and facts** are *always free*
+- *Copyright protects* the **creative expression** of an idea
   - Automatically attached to every novel expression (certain amount of years)
   - Software that you write is copyrighted by default
   - No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
-- Patents protect novel technological inventions
+- *Patents* protect **novel technological inventions**
   - Must be applied for, short number (10-20) of years
   - Must actually be novel and not yet published
-- Trademark is the right to not be impersonated
+- *Trademark* is the right to not be impersonated
 - You cannot put a copyright or patent on an algorithm. Or can you?
 
 <!--- This talk is mostly about copyright.  Patents are a much more
@@ -88,24 +89,24 @@ focus on copyright, as you should too.  -->
 
 ## These slides are an expression of an idea
 
-- Can I patent them? No
-- Do I need to copyright them? No (copyright by default)
-- Are you allowed to share them via email or Twitter or similar? Yes!
+- Can I patent them? .blue[No]
+- Do I need to copyright them? .blue[No (copyright by default)]
+- Are you allowed to share them via email or Twitter or similar? .blue[Yes!]
 
 ### Yes to sharing!
 
-- Sharing explicitly allowed by creative commons license (CC BY-SA 4.0)
+- Sharing explicitly allowed by creative commons license (CC BY-SA 4.0) on the first page
 - Otherwise probably fine according to "fair use"
 
 ---
 
 ## Relation to scientists
 
-- You come up with ideas
-- Ideas are published in papers
+- You come up with **ideas**
+- Ideas are published in **papers**
   - Papers might have limited access, but *anyone* can use the ideas in them
   - Your goal is to get citations for your paper by people using or improving your ideas
-- Your software may implement an idea in your paper
+- Your **software** may implement an idea in your paper
   - For your ideas to be used, software should be usable
   - If people can use or improve your software, they can more easily use your ideas
   - If people *can't* reuse and extend your software, your research may become a dead end.
@@ -157,60 +158,8 @@ Relate this to the value of what people have and want - much software is so smal
 -->
 
 ---
-<!--- move to end with details? -->
-## Problems with public domain
 
-- In certain jurisdictions you cannot just give up your rights without an explicit license
-- Public domain does not provide you a warranty and does not protect you from a lawsuit
-
-Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
-
-Public license releases the original author from all responsibilities, and does
-not guarantee that software does what it was intended to do; the other end of
-the spectrum is a guaranteed service and responsibility for bugfixing.
-
----
-## Broad categories of licenses
-
-We have three broad categories:
-
-- Permissive license
-  - Anyone can made closed source
-- Viral/share alike licenses
-  - Must stay open in future
-  - Commercial and other use OK, as long as stays open
-  - Owners can always go closed later.
-- Proprietary/closed
-  - No one may copy, modify, improve, and so on
-  - The *default*
-
-Use a common one: https://choosealicense.com/
-
----
-
-### What happens if I do not choose a license?
-
-- Software that you write is copyrighted by default
-- Without a license it is not clear what use breaks copyright
-- Nobody who is careful about her/his code base should use or even look at your code
-- In other words: code without license is not useful for reuse or derivative work
-- Your ideas won't get used
-
----
-
-## Questions to ask yourself when looking for the right license
-
-- What do you want to achieve?
-- What do you wish to avoid?
-- Do you want to make money with the project?
-- Do you mind if others do?
-- Do you care about having access to derivative work?
-- Do you want to attract developers?
-- Do you care about impact of your code? Proprietary software users?
-
----
-
-## Software licensing explained with cakes
+## Software licensing and open source explained with cakes
 
 <img src="img/cake-1.svg" style="width: 15%;"/>
 
@@ -314,7 +263,20 @@ then what?  -->
 
 ---
 
-## Possible outcomes 3/4: viral
+## Possible outcomes 3/4: share-alike
+
+### License: GNU Lesser GPL (LGPL)
+
+- The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
+- The restaurant guests have to be able to exchange the cake from the menu by improved cakes from other restaurants (dynamic relinking).
+
+### License: Mozilla Public License v2.0
+
+- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
+
+---
+
+## Possible outcomes 4/4: viral
 
 ### License: GNU GPL or GNU Affero GPL (for web services)
 
@@ -334,25 +296,55 @@ a huge community of firmware modders.  -->
 
 ---
 
-## Possible outcomes 4/4: share-alike
+## What outcomes did we have?
 
-### License: GNU Lesser GPL (LGPL)
+- Others **re-implemented** our idea: little credit
+- Others could use in **closed-source**
+  - BSD Unix (permissive, included in Windows)
+- Others could use, **had to re-share**
+  - Linux (viral, derivatives are still open)
 
-- The famous restaurant has to share only the improved cake recipe but can keep the rest of the menu closed.
-- The restaurant guests have to be able to exchange the cake from the menu by improved cakes from other restaurants (dynamic relinking).
+In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL)
 
-### License: Mozilla Public License v2.0
+---
+## Broad categories of licenses
 
-- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
+We have three broad categories:
+
+- Permissive license
+  - Anyone can made closed source
+- Viral/share alike licenses
+  - Must stay open in future
+  - Commercial and other use OK, as long as stays open
+  - Owners can always go closed later.
+- Proprietary/closed
+  - No one may copy, modify, improve, and so on
+  - The *default*
+
+Use a common one: https://choosealicense.com/
 
 ---
 
-## What outcomes did we have?
+### What happens if I do not choose a license?
 
-Examples from the software world:
-- BSD Unix (permissive, included in Windows)
-- Linux (viral, derivatives are still open)
-- ... (dual licenses, GPL for anyone and can pay for commercial non-GPL)
+- Software that you write is copyrighted by default
+- Without a license it is not clear what use breaks copyright
+- Nobody who is careful about her/his code base should use or even look at your code
+- In other words: code without license is not useful for reuse or derivative work
+- Your ideas won't get used
+
+---
+
+## Questions to ask yourself when looking for the right license
+
+- What do you want to achieve?
+- What do you wish to avoid?
+- Do you want to make money with the project?
+- Do you mind if others do?
+- Do you care about having access to derivative work?
+- Do you want to attract developers?
+- Do you care about impact of your code? Proprietary software users?
+
 
 ---
 ## Back to software.  What outcomes can **you** have?
@@ -561,6 +553,58 @@ faster or slower depending on the particular audience.
 
 ---
 
+## Making your code citable
+
+### Create a DOI for each release
+
+- https://guides.github.com/activities/citable-code/
+- https://zenodo.org
+
+---
+
+## Citation file format
+
+- [A standard format for CITATION files](https://software.ac.uk/blog/2017-12-12-standard-format-citation-files)
+- [Citation File Format (CFF) 1.0.3](https://citation-file-format.github.io)
+
+
+### Specifications
+
+- Machine-readable
+- Human-writable: easy to read, write and edit
+- Standard format: [YAML](http://yaml.org)
+- Support fine-grained types: software source code, software executable, software container, and virtual machine (image), etc.
+- Versioned
+- Include DOI, hash, or at least contact information
+- Support all scenarios for authorship and roles for authors
+- Allow to link to [ORCID](https://orcid.org)
+- Compatibility with other formats (Zenodo, Figshare)
+- Allow unicode, UTF-8 encoding
+
+---
+
+Example [CITATION.cff](https://github.com/citation-file-format/citation-file-format/blob/master/CITATION.cff) file:
+
+```
+cff-version: 0.9-RC1
+message: "If you use, or want to cite, the Citation File Format in this version (0.9-RC1), please use the following metadata."
+references:
+  - type: report
+    authors:
+      - family-names: Druskat
+        given-names: Stephan
+        orcid: 0000-0003-4925-7248
+        role: main-author
+    title: "Citation File Format (CFF)"
+    version: 0.9-RC1
+    repository-code: https://github.com/sdruskat/citation-file-format
+    year: 2017
+    date-published: 2017-10-06
+    doi: 10.5281/zenodo.1003150
+```
+
+---
+
 ## Can I copy-paste code from Stack Overflow into my code?
 
 ---
@@ -656,61 +700,24 @@ Depends on whether you distribute it:
 - Make contributors aware that contributions may imply CLA and CA
 
 ---
+<!--- move to end with details? -->
+## Problems with public domain
 
-## Making your code citable
+- In certain jurisdictions you cannot just give up your rights without an explicit license
+- Public domain does not provide you a warranty and does not protect you from a lawsuit
 
-### Create a DOI for each release
+Source: http://blog.milkingthegnu.org/2008/03/10-answers-for.html
 
-- https://guides.github.com/activities/citable-code/
-- https://zenodo.org
+Public license releases the original author from all responsibilities, and does
+not guarantee that software does what it was intended to do; the other end of
+the spectrum is a guaranteed service and responsibility for bugfixing.
+
+
+
+
 
 ---
-
-## Citation file format
-
-- [A standard format for CITATION files](https://software.ac.uk/blog/2017-12-12-standard-format-citation-files)
-- [Citation File Format (CFF) 1.0.3](https://citation-file-format.github.io)
-
-
-### Specifications
-
-- Machine-readable
-- Human-writable: easy to read, write and edit
-- Standard format: [YAML](http://yaml.org)
-- Support fine-grained types: software source code, software executable, software container, and virtual machine (image), etc.
-- Versioned
-- Include DOI, hash, or at least contact information
-- Support all scenarios for authorship and roles for authors
-- Allow to link to [ORCID](https://orcid.org)
-- Compatibility with other formats (Zenodo, Figshare)
-- Allow unicode, UTF-8 encoding
-
----
-
-Example [CITATION.cff](https://github.com/citation-file-format/citation-file-format/blob/master/CITATION.cff) file:
-
-```
-cff-version: 0.9-RC1
-message: "If you use, or want to cite, the Citation File Format in this version (0.9-RC1), please use the following metadata."
-references:
-  - type: report
-    authors:
-      - family-names: Druskat
-        given-names: Stephan
-        orcid: 0000-0003-4925-7248
-        role: main-author
-    title: "Citation File Format (CFF)"
-    version: 0.9-RC1
-    repository-code: https://github.com/sdruskat/citation-file-format
-    year: 2017
-    date-published: 2017-10-06
-    doi: 10.5281/zenodo.1003150
-```
-
-
-
 <!---
----
 TODO
 
 
