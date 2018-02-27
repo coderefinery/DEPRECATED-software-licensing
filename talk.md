@@ -386,16 +386,6 @@ http://choosealicense.com
 <!--many options.  Go to next slide -->
 
 ---
-## Recommended licenses
-
-- Permissive: MIT
-- Concerned about patents: Apache
-- Viral: GPLv3 or Apache.
-- Share-alike: LGPLv3 or MPLv2.0
-
-http://choosealicense.com
-
----
 
 ## Who owns the copyright for software you write?
 
