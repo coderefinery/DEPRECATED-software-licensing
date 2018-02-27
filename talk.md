@@ -151,7 +151,7 @@ Is the freedom to ...
 
 <!---
 
-Example: Ubuntu is free software.  It is supported by a company called Canonical.  Many people make free software.  Canonical packages it up as Ubuntu.  Because the software guarentees freedom, Canonical can't make Ubuntu closed-source.  Canonical doesn't make money out of the software itself - only their actual value-added services which they offer to companies.
+Example: Ubuntu is free software.  It is supported by a company called Canonical.  Many people make free software.  Canonical packages it up as Ubuntu.  Because the software guarantees freedom, Canonical can't make Ubuntu closed-source.  Canonical doesn't make money out of the software itself - only their actual value-added services which they offer to companies.
 
 Relate this to the value of what people have and want - much software is so small it isn't/can't be sold, but through a proper license others can help it make an impact.
 
@@ -354,7 +354,7 @@ Use a common one: https://choosealicense.com
 
 ### Closed or unlicensed
 - If you want to make money selling "cakes", you keep it closed.
-- Closed appropritae if it contains trade secrets or patentable material (**rare**)
+- Closed appropriate if it contains trade secrets or patentable material (**rare**)
 - Closed will give limited long-term impact.
 
 ### Open and licensed
