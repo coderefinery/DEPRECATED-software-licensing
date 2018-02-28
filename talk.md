@@ -50,7 +50,7 @@ layout: false
 ## Who owns ideas and data?
 
 - Intellectual property: protect abstract creations
-- Data, ideas, etc are easy to copy
+- Data, ideas, etc. are easy to copy
   - Except legally, *not* allowed by default
 - If you don't give permission, your work dies and rots
 
@@ -62,7 +62,7 @@ layout: false
 ### When we create software, we may create patentable .blue[ideas], copyrightable .blue[expressions] of ideas, and trademarkable .blue[names]
 
 - **Ideas and facts** are *always free*
-- *Copyright protects* the **creative expression** of an idea
+- *Copyright* protects the **creative expression** of an idea
   - Automatically attached to every novel expression (certain amount of years)
   - Software that you write is copyrighted by default
   - No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
@@ -109,7 +109,7 @@ focus on copyright, as you should too.  -->
 - Your **software** may implement an idea in your paper
   - For your ideas to be used, software should be usable
   - If people can use or improve your software, they can more easily use your ideas
-  - If people *can't* reuse and extend your software, your research may become a dead end.
+  - If people *can't* reuse and extend your software, your research may become a dead end
 
 <!---
 Maybe scientists aren't the only audience, but may be useful to start here anyway.
@@ -147,11 +147,11 @@ Is the freedom to ...
 ### .blue[Free software does not mean that software is for free]
 ### .blue[Open source license does not mean you need to share everything immediately]
 ### .blue[Open source does not mean public domain]: software in the public domain has no owner
-### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it.
+### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it
 
 <!---
 
-Example: Ubuntu is free software.  It is supported by a company called Canonical.  Many people make free software.  Canonical packages it up as Ubuntu.  Because the software guarentees freedom, Canonical can't make Ubuntu closed-source.  Canonical doesn't make money out of the software itself - only their actual value-added services which they offer to companies.
+Example: Ubuntu is free software.  It is supported by a company called Canonical.  Many people make free software.  Canonical packages it up as Ubuntu.  Because the software guarantees freedom, Canonical can't make Ubuntu closed-source.  Canonical doesn't make money out of the software itself - only their actual value-added services which they offer to companies.
 
 Relate this to the value of what people have and want - much software is so small it isn't/can't be sold, but through a proper license others can help it make an impact.
 
@@ -176,7 +176,7 @@ protectable.  However, your description *is* protectable. -->
 
 ---
 
-## Software licensing explained with cakes
+## Software licensing and open source explained with cakes
 
 <img src="img/cake-1.svg" style="width: 15%;"/>
 
@@ -230,17 +230,9 @@ then what?  -->
 
 ---
 
-## Possible outcomes 1/4: closed or custom
+## Possible outcomes 1/4: custom
 
-### Closed source
-
-- Your cake is celebrated by The New Yorker magazine.
-- People will have difficulties to reproduce your celebrated recipe.
-- Nobody else will improve your recipe.
-- Bad copycats will appear, you don't get any credit.
-- Fewer tasty cakes will get consumed.
-
-### Custom license
+### No license or custom license
 
 - No restaurant chef will touch it: too much hassle to employ a lawyer to be sure
   that the cake can be served to customers.
@@ -304,7 +296,7 @@ a huge community of firmware modders.  -->
 - Others could use, **had to re-share**
   - Linux (viral, derivatives are still open)
 
-In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL)
+In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL
 
 ---
 ## Broad categories of licenses
@@ -321,11 +313,11 @@ We have three broad categories:
   - No one may copy, modify, improve, and so on
   - The *default*
 
-Use a common one: https://choosealicense.com/
+Use a common one: https://choosealicense.com
 
 ---
 
-### What happens if I do not choose a license?
+## What happens if I do not choose a license?
 
 - Software that you write is copyrighted by default
 - Without a license it is not clear what use breaks copyright
@@ -354,7 +346,7 @@ Use a common one: https://choosealicense.com/
 
 ### Closed or unlicensed
 - If you want to make money selling "cakes", you keep it closed.
-- Closed appropritae if it contains trade secrets or patentable material (**rare**)
+- Closed appropriate if it contains trade secrets or patentable material (**rare**)
 - Closed will give limited long-term impact.
 
 ---
@@ -362,7 +354,7 @@ Use a common one: https://choosealicense.com/
 
 ### Closed or unlicensed
 - If you want to make money selling "cakes", you keep it closed.
-- Closed appropritae if it contains trade secrets or patentable material (**rare**)
+- Closed appropriate if it contains trade secrets or patentable material (**rare**)
 - Closed will give limited long-term impact.
 
 ### Open and licensed
@@ -392,15 +384,6 @@ http://choosealicense.com
 
 <!--- Don't spend much time on this, just make the point there are -->
 <!--many options.  Go to next slide -->
-
----
-## Recommended licenses
-
-- Permissive: MIT
-- Concerned about patents: Apache
-- Viral: GPLv3 or Apache.
-
-http://choosealicense.com
 
 ---
 
