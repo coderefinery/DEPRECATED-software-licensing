@@ -176,17 +176,6 @@ protectable.  However, your description *is* protectable. -->
 
 ---
 
-## Software licensing and open source explained with cakes
-
-<img src="img/cake-1.svg" style="width: 15%;"/>
-
-- Imagine you compose a recipe for a really tasty cake (a great idea).
-- In regular intervals you distribute cakes (release binaries).
-- Your family and friends love it.
-- But you can only bake so many.
-
----
-
 ## Possible outcomes 0/4: closed
 
 ### Closed source (recipe never released)
