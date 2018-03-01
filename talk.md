@@ -191,6 +191,7 @@ protectable.  However, your description *is* protectable. -->
 ## A friend tells you: why not distribute the recipe?
 
 - Put your recipe on GitHub.
+- Start the OpenCake organization.
 - Get feedback / start a mailing list.
 - More people will be able to enjoy the cake (increase impact).
 - Maybe somebody will find ways to improve the recipe.
