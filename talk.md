@@ -6,6 +6,10 @@ class: middle, inverse
 
 # Software licensing and citation
 
+## [Jyry Suvilehto](http://jyrsa.iki.fi)
+
+### [NeIC](https://neic.nordforsk.org)/ [CSC - IT Center for Science](https://www.csc.fi)
+
 ## [Radovan Bast](http://bast.fr)
 
 ### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
@@ -43,39 +47,75 @@ layout: false
 
 ## Disclaimer
 
-- I am not a lawyer
+- 0% of authors have law degrees
 - This is not legal advice
 
 ---
+
+## Who owns a physical object?
+
+- The one who has control
+- Ownership documentation
+
 ## Who owns ideas and data?
 
-- Intellectual property: protect abstract creations
+- Intellectual property rights: protect abstract creations
+  - Your work should eventually benefit human kind as a whole
+  - Before that you are given certain exclusive rights so as to enjoy the
+    fruit of your effort
 - Data, ideas, etc. are easy to copy
-  - Except legally, *not* allowed by default
+  - Legally, *not* allowed in many cases
+  - Everything is free eventually, but that may take 100+ years
 - If you don't give permission, your work dies and rots
 
 
 ---
 
-## Patents vs. copyright
+## Copyright vs. Patent vs. Trademark
 
 ### When we create software, we may create patentable .blue[ideas], copyrightable .blue[expressions] of ideas, and trademarkable .blue[names]
 
 - **Ideas and facts** are *always free*
 - *Copyright* protects the **creative expression** of an idea
-  - Automatically attached to every novel expression (certain amount of years)
-  - Software that you write is copyrighted by default
-  - No person other than the creator has the right under copyright law to create "derivative works" (unless the license permits it)
-- *Patents* protect **novel technological inventions**
-  - Must be applied for, short number (10-20) of years
-  - Must actually be novel and not yet published
-- *Trademark* is the right to not be impersonated
-- You cannot put a copyright or patent on an algorithm. Or can you?
+  - Automatically attached to every *novel* expression (certain amount of years)
+  - Software that you write is copyrighted by default (comparable to
+    literature or poetry)
+  - No-one besides copyright holder has the right under copyright law to create "derivative works" (unless the license permits it)
+  - The owner of copyright has the right to dictate *distribution and creation of copies* in order to profit
+  - If you infringe on someone's copyright you must pay reasonable damages but
+    you can keep on doing what you do as long as the copyright holder makes
+    profit
+  - Common exceptions: fair use
+    - Parody
+    - Criticism
+    - Quotation
 
 <!--- This talk is mostly about copyright.  Patents are a much more
 complex and limited concept.  Most software can't be patentatable, and
-if you publish your ideas anyway, patenting is impossible.  So, we
+after you publish your ideas, patenting is impossible.  So, we
 focus on copyright, as you should too.  -->
+
+
+---
+
+## Copyright vs. Patent vs. Trademark
+- *Patents* protect **novel technological inventions**
+  - Also business process patents exist
+  - Must be applied for, short number (10-20) of years
+  - Must actually be novel and not yet publicly known, prior art invalidates
+    patents
+  - Must be actually used
+  - If you infringe on someone's patent you may be compelled to stop doing
+    what you are doing
+- *Trademark* is the right to not be impersonated
+- You cannot put a copyright or patent on an algorithm.
+  - Or can you?
+
+<!--- Patents are so sacred that even during WWII German aircraft
+manufacturers paid patent royalties to american corporations on fighter
+jet engine designs. Imagine Sean Bean saying "One does not simply infringe
+patents" -->
+
 
 ---
 
@@ -151,9 +191,18 @@ Is the freedom to ...
 
 <!---
 
-Example: Ubuntu is free software.  It is supported by a company called Canonical.  Many people make free software.  Canonical packages it up as Ubuntu.  Because the software guarantees freedom, Canonical can't make Ubuntu closed-source.  Canonical doesn't make money out of the software itself - only their actual value-added services which they offer to companies.
+Example: Ubuntu is free software.  It is supported by a company called
+Canonical.  Many people make free software.  Canonical packages it up as
+Ubuntu.  Because the software guarantees freedom, Canonical can't make Ubuntu
+closed-source.  Canonical doesn't make money out of the software itself - only
+their actual value-added services which they offer to companies.
 
-Relate this to the value of what people have and want - much software is so small it isn't/can't be sold, but through a proper license others can help it make an impact.
+Example: you come up with a formula and a piece of software to improve a
+chemical process.
+
+Relate this to the value of what people have and want - much software is so
+small it isn't/can't be sold, but through a proper license others can help it
+make an impact.
 
 -->
 
@@ -183,7 +232,7 @@ protectable.  However, your description *is* protectable. -->
 - Your cake is celebrated by The New Yorker magazine.
 - People will have difficulties to reproduce your celebrated recipe.
 - Nobody else will improve your recipe.
-- Bad copycats will appear, you don't get any credit.
+- Bad copycats might appear, you don't get any credit.
 - Fewer tasty cakes will get consumed.
 
 ---
@@ -227,6 +276,11 @@ then what?  -->
 - No restaurant chef will touch it: too much hassle to employ a lawyer to be sure
   that the cake can be served to customers.
 - But maybe they will bake it and eat it and not distribute it and that is OK.
+  - So called "fair use" provision permits the making of copies for own use
+
+<!--- The restaurant industry is infamous for copying recipes and there are
+very few published court cases. Let's skim over this fact and stay in the
+fictitious example though. -->
 
 ---
 
@@ -241,7 +295,7 @@ then what?  -->
 
 ### License: BSD-3
 
-- In addition to the above it is understood that the updated recipe are not endorsed by OpenCake.
+- In addition to the above it is understood that the updated recipe are not endorsed by the OpenCake organization.
 
 ---
 
@@ -369,6 +423,7 @@ Use a common one: https://choosealicense.com
 
 There are *many* licenses, but you should not be creative.  **Use the
 most common** for your situation, license proliferation is a real problem.
+- a bad example of a license [JSON license](https://www.json.org/license.html)
 
 http://choosealicense.com
 
@@ -387,6 +442,8 @@ http://choosealicense.com
 - So-called works made for hire
 - Personal experience: if you ask legal experts it can get complicated
 - Nobody can take away code from you if you develop in your free time on your hardware using your own network
+  - ...maybe. Your employer can still threaten to take you to court and use a
+    **chilling effect**
 
 ### Even within a country it can vary depending on the employer (public vs private)
 
@@ -423,6 +480,7 @@ their internal rights to do their work! -->
 
 - Add a LICENSE file to your repository (GitHub understands it)
   - Use GitHub web to add file named LICENSE and it helps you select!
+  - You should check that GitHub can automatically detect the license
 - License your supporting information (images) under
   creative commons (use [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com))
 
@@ -469,7 +527,8 @@ Image from [David A. Wheeler's license slide](https://www.dwheeler.com/essays/fl
 
 ## Recommendations
 
-- You *can't* ignore licensing: default is "no one can use"
+- You *can't* ignore licensing: default is "no one can make copies or
+  derivative works"
 - The *earlier* you license, the easier it is.
 - Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
   [compatibility](https://en.wikipedia.org/wiki/License_compatibility)
@@ -478,7 +537,7 @@ Image from [David A. Wheeler's license slide](https://www.dwheeler.com/essays/fl
 
 ---
 
-## My personal choices
+## Radovan's personal choices
 
 ### When I have the choice, I prefer to ...
 
@@ -497,6 +556,30 @@ Image from [David A. Wheeler's license slide](https://www.dwheeler.com/essays/fl
 Is closed-source development compatible with reproducible research?
 
 ---
+
+## Jyry's personal choices
+
+### When I have the choice, I prefer to ...
+
+- ... use code that is likely to be maintained in the future (active open source project or
+      paid for closed source license)
+- ... develop under an open source license to make myself feel I'm
+  contributing to humanity
+- ... develop under a permissive license to foster both commercial and and community activity around the codebases I work with
+- ... develop under MIT License to avoid having to deal with contributor
+  license agreements
+- ... contribute to projects under whatever open license they might have to support the community around the code
+
+### In practice
+
+- ... I do whatever my employer tells me to
+
+### Food for thought
+
+Is closed-source development compatible with reproducible research?
+
+---
+
 
 ## Good resources for software licensing
 
