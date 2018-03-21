@@ -119,6 +119,53 @@ patents" -->
 
 ---
 
+## Copyright in Finland
+
+- Copyright duration is lifetime of author + 70 years
+  - In case of multiple authors, count from the last one
+- Parody is not an exception of the derivative works rule
+- Copyright is typically transferred to employer for works done in the context
+  of salaried work
+  - Researchers working on grant money are not salaried
+  - Researchers and teachers working *independently* in universities are an
+    exception
+      - Exact meaning of the current provision is not clear
+  - You still have the right to be recognized as the author
+  - If you wish to license a piece of software you write for work you should
+    typically have permission from your employer
+      - Easiest to have an Open Source Policy
+- Certain exceptions that are not copyrightable
+  - Trivial code (or other content)
+    - Does not meet **threshold of originality**
+  - Code that implements an API
+
+---
+
+## Copyright in Finland Part 2
+
+- Related rights (lähioikeudet)
+  - Protect things that might not meet threshold of originality
+  - Recordings, photographs, **databases**
+  - Less stringent duration, etc.
+- Copyright is typically transfered to employer for works done in the context
+  of a salaried work
+  - Researchers working on grant money are an exception
+  - You still have the right to be recognized as the author
+- Certain exceptions
+  - Trivial code
+  - Code that implements an API
+- *Finnish law does not recognize large parts of fair use doctrine*
+  - Parody
+  - Commentary
+  - Criticism
+  - But are allowed to make personal copies
+  - This is likely to be overruled if ever taken to EU courts but that is a
+    long process...
+
+
+
+---
+
 ## These slides are an expression of an idea
 
 - Can I patent them?
@@ -166,6 +213,17 @@ your idea, someone can always read that paper and re-create your
 method.  Don't think that copyright gives you magic protection.
 
 -->
+---
+
+## Related rights and scientists
+
+- If you make measurements, the collection may be a protected catalogue or database
+- It's best to explicitly give permission to use published tables, catalogues
+  or databases when publishing them
+
+---
+
+## Free as in beer or free as in speech?
 
 ---
 
