@@ -77,7 +77,7 @@ layout: false
 
 - Copyright: You are Goethe and your writings are widely published, you are
   given a right to some of the proceeds from selling copies
-- Trademark: You invented a better printing press and are given the exclusive
+- Patent: You invented a better printing press and are given the exclusive
   to manufacture printing presses that use the technique
 
 <!-- Printing press was the reason copyright was necessary in the first place.
