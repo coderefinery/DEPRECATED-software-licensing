@@ -71,24 +71,42 @@ layout: false
 
 ---
 
+## Copyright vs. Patent, a Concrete Example
+
+<img src="img/printing_press.jpg" style="width: 50%;"/>
+
+- Copyright: You are Goethe and your writings are widely published, you are
+  given a right to some of the proceeds from selling copies
+- Patent: You invented a better printing press and are given the exclusive
+  to manufacture printing presses that use the technique
+
+<!-- Printing press was the reason copyright was necessary in the first place.
+Before the printing press copying anything was manual labour and the cost of
+copies was mainly in the act of copying. After the printing press copying
+became so simple that it was no longer a major cost: there was money left over
+and the question was should it go all to the printer or some also to the writer.
+-->
+
+---
+
 ## Copyright vs. Patent vs. Trademark
 
 ### When we create software, we may create patentable .blue[ideas], copyrightable .blue[expressions] of ideas, and trademarkable .blue[names]
 
 - **Ideas and facts** are *always free*
 - *Copyright* protects the **creative expression** of an idea
-  - Automatically attached to every *novel* expression (certain amount of years)
-  - Software that you write is copyrighted by default (comparable to
-    literature or poetry)
-  - No-one besides copyright holder has the right under copyright law to create "derivative works" (unless the license permits it)
-  - The owner of copyright has the right to dictate *distribution and creation of copies* in order to profit
-  - If you infringe on someone's copyright you must pay reasonable damages but
-    you can keep on doing what you do as long as the copyright holder makes
-    profit
-  - Common exceptions: fair use
-    - Parody
-    - Criticism
-    - Quotation
+- Automatically attached to every *novel* expression (certain amount of years)
+- Software that you write is copyrighted by default (comparable to
+  literature or poetry)
+- No-one besides copyright holder has the right under copyright law to create "derivative works" (unless the license permits it)
+- The owner of copyright has the right to dictate *distribution and creation of copies* in order to profit
+- If you infringe on someone's copyright you must pay reasonable damages but
+  you can keep on doing what you do as long as the copyright holder makes
+  profit
+- "Fair use rules" are an exception
+  - Parody
+  - Criticism
+  - Quotation
 
 <!--- This talk is mostly about copyright.  Patents are a much more
 complex and limited concept.  Most software can't be patentatable, and
@@ -117,6 +135,16 @@ jet engine designs. Imagine Sean Bean saying "One does not simply infringe
 patents" -->
 
 
+---
+
+## Copyright vs. Patent in practice
+
+<img src="img/cake-1.svg" style="width: 50%;"/>
+- Copyright: You are Goethe and your writings are widely published, you are
+  given a right to some of the proceeds from selling copies
+- Trademark: You invented a better printing press
+
+(Image Public Domain,  Daniel Chodowiecki)
 ---
 
 ## Copyright in Finland
@@ -268,8 +296,8 @@ make an impact.
 
 ## Software licensing and open source explained with cakes
 
-<img src="img/cake-1.svg" style="width: 15%;"/>
 
+<img src="img/cake-1.svg" style="width: 15%;"/>
 - Imagine you compose a recipe for a really tasty cake (a great idea).
 - In regular intervals you distribute cakes (release binaries).
 - Your family and friends love it.
@@ -652,12 +680,15 @@ Is closed-source development compatible with reproducible research?
 - https://hintjens.gitbooks.io/social-architecture/content/chapter2.html
 - https://users.aalto.fi/~darstr1/cheatsheets/ipr-cheatsheet.pdf
 
-
 ---
+
+
 ## End main talk
 
 After this point we have assorted topics, which can be gone through
-faster or slower depending on the particular audience.
+faster or slower depending on audience desires.
+
+## Questions?
 
 
 ---
