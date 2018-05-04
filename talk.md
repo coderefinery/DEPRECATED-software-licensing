@@ -39,9 +39,9 @@ layout: false
 ## Questions we will try to answer
 
 - How can you protect your ideas, names, and implementations?
-- Can you copy-paste code from Stack Overflow into your code?
+- Can you copy-paste code from the internet into your code?
 - Who owns the code you write?
-- Who owns the code you have completely rewritten?
+- Who owns the code you have modified?
 - How software licenses can influence the impact of your code.
 - How to motivate contributions to your code by choice of license?
 
@@ -252,6 +252,18 @@ method.  Don't think that copyright gives you magic protection.
 ---
 
 ## Free as in beer or free as in speech?
+
+
+---
+
+
+## Copy right and copy left
+
+
+---
+
+## What is free software?
+<img src="img/free_to_take.svg" style="width: 50%;"/>
 
 ---
 
