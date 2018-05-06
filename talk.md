@@ -126,6 +126,7 @@ focus on copyright, as you should too.  -->
 - *Patents* protect **novel technological inventions**
   - Also business process patents exist
   - Must be applied for, short number (10-20) of years
+  - Patents are granted by individual countries
   - Must actually be novel and not yet publicly known, prior art invalidates
     patents
   - Must be actually used
