@@ -18,6 +18,10 @@ class: middle, inverse
 
 ### [Aalto University](https://www.aalto.fi)
 
+## [Sabry Razick](http://www.usit.uio.no/english/about/organisation/rc/rss/staff/sabryr/index.html)
+
+### [University of Oslo, Norway](https://www.uio.no)
+
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Acknowledgements:
