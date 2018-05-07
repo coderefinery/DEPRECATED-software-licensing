@@ -57,9 +57,9 @@ layout: false
 ---
 
 ## Who owns a physical object?
-
+<img src="img/CarOwner.svg" style="width: 40%;"/>
 - The one who has control
-- Ownership documentation
+- Ownership documentation   
 
 ## Who owns ideas and data?
 
