@@ -134,7 +134,7 @@ focus on copyright, as you should too.  -->
     what you are doing
 - *Trademark* is the right to not be impersonated
 - You cannot put a copyright or patent on an algorithm.
-  - Or can you?
+  - Or can you (Google search algorithm)?
 
 <!--- Patents are so sacred that even during WWII German aircraft
 manufacturers paid patent royalties to american corporations on fighter
