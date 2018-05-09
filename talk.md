@@ -24,10 +24,9 @@ layout: false
 
 # Goals
 
-## 1) Motivate why software licenses matter
-## 2) Provide guidance on which license to choose
-## 3) Show how to make your code better citable
-## 4) .blue[Discussion]
+## 1) Why software licenses matter
+## 2) Guidance on which license to choose
+## 3) .blue[Discussion]
 
 ---
 
@@ -118,8 +117,7 @@ focus on copyright, as you should too.  -->
   - Also business process patents exist
   - Must be applied for, short number (10-20) of years
   - Patents are granted by individual countries
-  - Must actually be novel and not yet publicly known, prior art invalidates
-    patents
+  - Must actually be novel and not yet publicly known
   - Must be actually used
   - If you infringe on someone's patent you may be compelled to stop doing
     what you are doing
