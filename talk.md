@@ -244,6 +244,16 @@ method.  Don't think that copyright gives you magic protection.
 - More on license categories
 ---
 
+## What happens if I do not choose a license?
+
+- Software that you write is copyrighted by default
+- Without a license it is not clear what use breaks copyright
+- Nobody who is careful about her/his code base should use or even look at your code
+- In other words: code without license is not useful for reuse or derivative work
+- Your ideas won't get used
+
+---
+
 ## Why free software?
 <img src="img/free_to_take.svg" style="width: 100%;"/>
 
@@ -302,6 +312,24 @@ make an impact.
 -->
 
 ---
+## Broad categories of licenses
+
+We have three broad categories:
+
+- Permissive license
+  - Anyone can make closed source
+- Viral/share alike licenses
+  - Must stay open in future
+  - Commercial and other use OK, as long as stays open
+  - Owners can always go closed later.
+- Proprietary/closed
+  - No one may copy, modify, improve, and so on
+  - The *default*
+
+Use a common one: https://choosealicense.com
+
+---
+
 
 ## Software licensing and open source explained with cakes
 
@@ -320,6 +348,8 @@ protectable.  However, your description *is* protectable. -->
 
 ---
 
+
+
 ## Possible outcomes 0/4: closed
 
 ### Closed source (recipe never released)
@@ -332,39 +362,7 @@ protectable.  However, your description *is* protectable. -->
 
 ---
 
-## A friend tells you: why not distribute the recipe?
-
-- Put your recipe on GitHub.
-- Start the OpenCake organization.
-- Get feedback / start a mailing list.
-- More people will be able to enjoy the cake (increase impact).
-- Maybe somebody will find ways to improve the recipe.
-- Everyone will know that it was your idea even though somebody else bakes it.
-
----
-
-## Mrs. X (running a famous restaurant) finds your cake recipe on GitHub
-
-Let's say you did put the recipe on GitHub.
-
-<img src="img/cake-1.svg" style="width: 15%;"/>
-
-- The chef tries it and it is great.
-- The chef suggests improvements (derivative work):
-
-<img src="img/cake-2.svg" style="width: 15%;"/>
-
-- It becomes part of the restaurant menu.
-- Or does it? Depends on your license!
-
-<!--- What is most important is *how are the changes handled*.  Since
-you are giving the recipe out yourself, people can use it "personally"
-however they want.  But if they want to improve/reuse/redistribute it,
-then what?  -->
-
----
-
-## Possible outcomes 1/4: custom
+## Possible outcomes 1/4: custom or no license
 
 ### No license or custom license
 
@@ -427,6 +425,7 @@ a huge community of firmware modders.  -->
 
 ---
 
+
 ## What outcomes did we have?
 
 - Others **re-implemented** our idea: little credit
@@ -436,33 +435,6 @@ a huge community of firmware modders.  -->
   - Linux (viral, derivatives are still open)
 
 In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL
-
----
-## Broad categories of licenses
-
-We have three broad categories:
-
-- Permissive license
-  - Anyone can made closed source
-- Viral/share alike licenses
-  - Must stay open in future
-  - Commercial and other use OK, as long as stays open
-  - Owners can always go closed later.
-- Proprietary/closed
-  - No one may copy, modify, improve, and so on
-  - The *default*
-
-Use a common one: https://choosealicense.com
-
----
-
-## What happens if I do not choose a license?
-
-- Software that you write is copyrighted by default
-- Without a license it is not clear what use breaks copyright
-- Nobody who is careful about her/his code base should use or even look at your code
-- In other words: code without license is not useful for reuse or derivative work
-- Your ideas won't get used
 
 ---
 
