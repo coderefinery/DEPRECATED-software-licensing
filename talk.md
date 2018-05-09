@@ -279,7 +279,7 @@ Is the freedom to ...
 
 ## What is free software?
 
-### .blue[Free software does not mean that software is for free of charge]
+### .blue[Free software does not mean that software is free of charge]
 ### .blue[Open source license does not mean you need to share everything immediately]
 ### .blue[Open source does not mean public domain]: software in the public domain has no owner
 ### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it
