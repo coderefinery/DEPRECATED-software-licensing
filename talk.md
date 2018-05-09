@@ -317,8 +317,9 @@ make an impact.
 We have three broad categories:
 
 - Permissive license
-  - Anyone can make closed source
+  - Let people do anything they want with the code as long as they provide attribution back to the author/s and don’t hold the author/s liable.
 - Viral/share alike licenses
+  - Copyleft
   - Must stay open in future
   - Commercial and other use OK, as long as stays open
   - Owners can always go closed later.
@@ -326,7 +327,7 @@ We have three broad categories:
   - No one may copy, modify, improve, and so on
   - The *default*
 
-Use a common one: https://choosealicense.com
+Use a common one: https://choosealicense.com, Wikipedia
 
 ---
 
@@ -347,8 +348,6 @@ ingredients list and basic instructions simply facts, so not
 protectable.  However, your description *is* protectable. -->
 
 ---
-
-
 
 ## Possible outcomes 0/4: closed
 
