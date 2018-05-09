@@ -251,12 +251,14 @@ method.  Don't think that copyright gives you magic protection.
 
 
 ## Free as in beer or free as in speech?
+<img src="img/free.svg" style="width: 80%;"/>
 
 
 ---
 
 
-## Copy right and copy left
+## Copyright Vs Copyleft
+<img src="img/copyleft.svg" style="width: 80%;"/>
 
 
 ---
@@ -277,7 +279,7 @@ Is the freedom to ...
 
 ## What is free software?
 
-### .blue[Free software does not mean that software is for free]
+### .blue[Free software does not mean that software is for free of charge]
 ### .blue[Open source license does not mean you need to share everything immediately]
 ### .blue[Open source does not mean public domain]: software in the public domain has no owner
 ### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it
