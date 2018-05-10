@@ -237,7 +237,7 @@ method.  Don't think that copyright gives you magic protection.
 ## Software license
 
 - Not having a license is worse than having one 
-	- No license no one want to use it
+	- No license, no one want to use it
 	- Some sort of license will encourage usage under the specified conditions
 	- Public domain	or unlicensed, not the same as no license
 - Free and open software
@@ -246,6 +246,7 @@ method.  Don't think that copyright gives you magic protection.
 - Proprietary software
 	- My Windows copy and license-key
 - More on license categories
+- How to use or adopt licensed material 
 ---
 
 ## What happens if I do not choose a license?
@@ -274,7 +275,13 @@ method.  Don't think that copyright gives you magic protection.
 ## Copyright Vs Copyleft
 <img src="img/copyleft.svg" style="width: 80%;"/>
 
+- Copyright  
+	- protect authors from unauthorized copying or selling of their work. 
+	- only with the author's permission may such activities take place.
+- Copyleft
+	- Provides a method for software or documentation to be modified distributed back to the community, provided it remains free (Libre). 
 
+(Source :https://www.gnu.org)
 ---
 
 
