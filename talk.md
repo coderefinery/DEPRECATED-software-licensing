@@ -506,6 +506,18 @@ http://choosealicense.com
 
 <!--- Don't spend much time on this, just make the point there are -->
 <!--many options.  Go to next slide -->
+---
+##  Creative Commons licenses
+- Attribution (by)
+	- must give credit to author/s
+- ShareAlike (sa)
+	- distribute any modified work on the same terms
+- NonCommercial (nc)
+	- no commercially use without permission
+- NoDerivatives (nd)
+	- no modifications without permission
+
+source:https://creativecommons.org
 
 ---
 
