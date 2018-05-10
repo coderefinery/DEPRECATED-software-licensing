@@ -71,11 +71,11 @@ layout: false
 <img src="img/printing_press.jpg" style="width: 50%;"/>
 
 - Copyright: You are Goethe and your writings are widely published, you are
-  given a right to some of the proceeds from selling copies (expression of an idea)
+  given a right to some of the proceeds from selling copies (.blue[expression of an idea])
 - Patent: You invented a better printing press and are given the exclusive
-  to manufacture printing presses that use the technique (invention)
+  to manufacture printing presses that use the technique (.blue[invention])
 - Trademark: You start selling the printing press with the name AutoPress, which
-  distinguishes your press from others (Ownership). 
+  distinguishes your press from others (.blue[Ownership]). 
 
 <!-- Printing press was the reason copyright was necessary in the first place.
 Before the printing press copying anything was manual labour and the cost of
