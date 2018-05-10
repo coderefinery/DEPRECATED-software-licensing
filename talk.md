@@ -36,7 +36,7 @@ layout: false
 - How can you protect your ideas, names, and implementations?
 - Can you copy-paste code from the internet into your code?
 - Who owns the code you write?
-- Who owns the code you have modified?
+- Who owns the code you have modified/rewritten?
 - How software licenses can influence the impact of your code.
 - How to motivate contributions to your code by choice of license?
 
