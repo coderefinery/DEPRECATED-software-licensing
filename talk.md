@@ -280,6 +280,7 @@ method.  Don't think that copyright gives you magic protection.
 	- only with the author's permission may such activities take place.
 - Copyleft
 	- Provides a method for software or documentation to be modified distributed back to the community, provided it remains free (Libre). 
+	- Derivative work can only be distributed under the same license terms. 
 
 (Source :https://www.gnu.org)
 ---
@@ -492,7 +493,7 @@ In real world, **dual licensing** is common: GPL for anyone, but you can pay for
 - (most permissive)
 - Public domain (CC0)
 - Permissive (MIT, BSD) (CC-BY)
-- Patent protection (Apache)
+	- Patent protection (Apache)
 - Share-alike (LGPL) (CC-BY-SA)
 - Viral (GPL2/3)
 - Viral including webservices (AGPL)
@@ -543,9 +544,13 @@ source:https://en.wikipedia.org/wiki/Share-alike
 
 	
 ---
-### Patent protection
-	- Like MIT,
+### Viral
+- Copyleft licenses 
+- Exmaples
+	- GNU General Public License (GPL) 
+	- Creative Commons Attribution-Sharealike license (CC-BY-SA). 
 
+source:https://en.wikipedia.org/wiki/GNU_General_Public_License
 ---
 
 ## Who owns the copyright for software you write?
