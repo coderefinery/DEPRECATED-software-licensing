@@ -508,16 +508,43 @@ http://choosealicense.com
 <!--many options.  Go to next slide -->
 ---
 ##  Creative Commons licenses
-- Attribution (by)
-	- must give credit to author/s
-- ShareAlike (sa)
-	- distribute any modified work on the same terms
-- NonCommercial (nc)
-	- no commercially use without permission
-- NoDerivatives (nd)
-	- no modifications without permission
+- CC0
+	- public domain 
+	- waive all interests that may exist worldwide
+	- No Rights Reserved
+- CC	
+	- Attribution (by)
+		- must give credit to author/s
+	- ShareAlike (sa)
+		- distribute any modified work on the same terms
+	- NonCommercial (nc)
+		- no commercially use without permission
+	- NoDerivatives (nd)
+		- no modifications without permission
 
 source:https://creativecommons.org
+
+---
+### Permissive
+- MIT
+	- lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable. 
+- BSD 
+	- lax (not strict), permissive, non-copyleft, free
+- CC-BY
+	- Only need to give credit to author/s
+- Apache License 
+	- Like MIT but also provides an express grant of patent rights from contributors to users
+---
+### Sahre Alike
+- Creative Commons Attribution-ShareAlike (a copyleft, free content licence) 
+- Creative Commons Attribution-NonCommercial-ShareAlike (a proprietary licence).  
+
+source:https://en.wikipedia.org/wiki/Share-alike
+
+	
+---
+### Patent protection
+	- Like MIT,
 
 ---
 
