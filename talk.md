@@ -16,7 +16,7 @@ class: middle, inverse
 
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Acknowledgements:
+Acknowledgments:
 - Oxana Smirnova (suggestions and corrections)
 
 ---
@@ -78,7 +78,7 @@ layout: false
   distinguishes your press from others (.blue[Ownership]). 
 
 <!-- Printing press was the reason copyright was necessary in the first place.
-Before the printing press copying anything was manual labour and the cost of
+Before the printing press copying anything was manual labor and the cost of
 copies was mainly in the act of copying. After the printing press copying
 became so simple that it was no longer a major cost: there was money left over
 and the question was should it go all to the printer or some also to the writer.
@@ -127,7 +127,7 @@ focus on copyright, as you should too.  -->
   - Or can you (Google search algorithm)?
 
 <!--- Patents are so sacred that even during WWII German aircraft
-manufacturers paid patent royalties to american corporations on fighter
+manufacturers paid patent royalties to American corporations on fighter
 jet engine designs. Imagine Sean Bean saying "One does not simply infringe
 patents" -->
 
@@ -431,7 +431,7 @@ fictitious example though. -->
 
 <!--- Example of benefits of virality in software: Linksys routers and
 GPL's kernel image. Some company used linux, didn't distribute source.
-They were fourced to distribute it, and that has directly led to
+They were forced to distribute it, and that has directly led to
 a huge community of firmware modders.  -->
 
 ---
@@ -536,9 +536,9 @@ source:https://creativecommons.org
 - Apache License 
 	- Like MIT but also provides an express grant of patent rights from contributors to users
 ---
-### Sahre Alike
-- Creative Commons Attribution-ShareAlike (a copyleft, free content licence) 
-- Creative Commons Attribution-NonCommercial-ShareAlike (a proprietary licence).  
+### Share Alike
+- Creative Commons Attribution-ShareAlike (a copyleft, free content license) 
+- Creative Commons Attribution-NonCommercial-ShareAlike (a proprietary license).  
 
 source:https://en.wikipedia.org/wiki/Share-alike
 
@@ -546,7 +546,7 @@ source:https://en.wikipedia.org/wiki/Share-alike
 ---
 ### Viral
 - Copyleft licenses 
-- Exmaples
+- Examples
 	- GNU General Public License (GPL) 
 	- Creative Commons Attribution-Sharealike license (CC-BY-SA). 
 
@@ -572,7 +572,7 @@ source:https://en.wikipedia.org/wiki/GNU_General_Public_License
 
 ## If you own your software
 
-- You can relicense
+- You can re-license
 - You can dual-license
 
 ### If you do not own your software, you can:
@@ -662,7 +662,7 @@ Image from [David A. Wheeler's license slide](https://www.dwheeler.com/essays/fl
 
 ### When I have the choice, I prefer to ...
 
-- ... use an open source code (scientific reproducibility)
+- ... use an open source code (scientific reproducible)
 - ... develop under an open source license to keep access to my code
 - ... develop under a share-alike license in order to not lock myself out of improvements to my code
 - ... contribute to a share-alike licensed software of others because I know they won't run away with my code
