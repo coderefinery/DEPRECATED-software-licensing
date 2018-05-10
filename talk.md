@@ -448,16 +448,6 @@ In real world, **dual licensing** is common: GPL for anyone, but you can pay for
 
 ---
 
-## What happens if I do not choose a license?
-
-- Software that you write is copyrighted by default
-- Without a license it is not clear what use breaks copyright
-- Nobody who is careful about her/his code base should use or even look at your code
-- In other words: code without license is not useful for reuse or derivative work
-- Your ideas won't get used
-
----
-
 ## Questions to ask yourself when looking for the right license
 
 - What do you want to achieve?
