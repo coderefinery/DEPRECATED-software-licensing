@@ -718,16 +718,16 @@ Is closed-source development compatible with reproducible research?
 ---
 
 
+## Questions?
+
+
+---
 ## End main talk
 
 After this point we have assorted topics, which can be gone through
 faster or slower depending on audience desires.
 
-## Questions?
-
-
 ---
-
 # Assorted topics
 
 
