@@ -447,23 +447,6 @@ a huge community of firmware modders.  -->
 In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL
 
 ---
-## Broad categories of licenses
-
-We have three broad categories:
-
-- Permissive license
-  - Anyone can made closed source
-- Viral/share alike licenses
-  - Must stay open in future
-  - Commercial and other use OK, as long as stays open
-  - Owners can always go closed later.
-- Proprietary/closed
-  - No one may copy, modify, improve, and so on
-  - The *default*
-
-Use a common one: https://choosealicense.com
-
----
 
 ## What happens if I do not choose a license?
 
