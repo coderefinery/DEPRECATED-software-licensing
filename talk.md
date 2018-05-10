@@ -6,21 +6,13 @@ class: middle, inverse
 
 # Software licensing and citation
 
-## [Jyry Suvilehto](http://jyrsa.iki.fi)
+### [Jyry Suvilehto](http://jyrsa.iki.fi) ([NeIC], [CSC - IT Center for Science])
 
-### [NeIC](https://neic.nordforsk.org)/ [CSC - IT Center for Science](https://www.csc.fi)
+### [Radovan Bast](http://bast.fr) ([NeIC],[UiT The Arctic University of Norway])
 
-## [Radovan Bast](http://bast.fr)
+### [Richard Darst](http://rkd.zgib.net) ([Aalto University])
 
-### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
-
-## [Richard Darst](http://rkd.zgib.net)
-
-### [Aalto University](https://www.aalto.fi)
-
-## [Sabry Razick](http://www.usit.uio.no/english/about/organisation/rc/rss/staff/sabryr/index.html)
-
-### [University of Oslo, Norway](https://www.uio.no)
+### [Sabry Razick](http://uio.no) ([Neic], [University of Oslo, Norway])
 
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -33,10 +25,9 @@ layout: false
 
 # Goals
 
-## 1) Motivate why software licenses matter
-## 2) Provide guidance on which license to choose
-## 3) Show how to make your code better citable
-## 4) .blue[Discussion]
+## 1) Why software licenses matter
+## 2) Guidance on which license to choose
+## 3) .blue[Discussion]
 
 ---
 
@@ -127,8 +118,7 @@ focus on copyright, as you should too.  -->
   - Also business process patents exist
   - Must be applied for, short number (10-20) of years
   - Patents are granted by individual countries
-  - Must actually be novel and not yet publicly known, prior art invalidates
-    patents
+  - Must actually be novel and not yet publicly known
   - Must be actually used
   - If you infringe on someone's patent you may be compelled to stop doing
     what you are doing
@@ -198,7 +188,7 @@ patents" -->
 ## These slides are an expression of an idea
 
 - Can I patent them? .blue[No]
-- Do I need to copyright them? .blue[No (copyright by default)]
+- Do I need to copyright them? .blue[No (copyright by default), but you could have one]
 - Are you allowed to share them via email or Twitter or similar? .blue[Yes!]
 
 ### Yes to sharing!
@@ -244,14 +234,27 @@ method.  Don't think that copyright gives you magic protection.
 
 ---
 
-## Free as in beer or free as in speech?
+## Software license
 
-
+- Not having a license is worse than having one 
+	- No license no one want to use it
+	- Some sort of license will encourage usage under the specified conditions
+	- Public domain	or unlicensed, not the same as no license
+- Free and open software
+	- Copyleft 
+	- My Ubuntu copy
+- Proprietary software
+	- My Windows copy and license-key
+- More on license categories
 ---
 
+## What happens if I do not choose a license?
 
-## Copy right and copy left
-
+- Software that you write is copyrighted by default
+- Without a license it is not clear what use breaks copyright
+- Nobody who is careful about her/his code base should use or even look at your code
+- In other words: code without license is not useful for reuse or derivative work
+- Your ideas won't get used
 
 ---
 
@@ -259,6 +262,21 @@ method.  Don't think that copyright gives you magic protection.
 <img src="img/free_to_take.svg" style="width: 100%;"/>
 
 ---
+
+
+## Free as in beer or free as in speech?
+<img src="img/free.svg" style="width: 80%;"/>
+
+
+---
+
+
+## Copyright Vs Copyleft
+<img src="img/copyleft.svg" style="width: 80%;"/>
+
+
+---
+
 
 ## What is free software?
 
@@ -275,7 +293,7 @@ Is the freedom to ...
 
 ## What is free software?
 
-### .blue[Free software does not mean that software is for free]
+### .blue[Free software does not mean that software is free of charge]
 ### .blue[Open source license does not mean you need to share everything immediately]
 ### .blue[Open source does not mean public domain]: software in the public domain has no owner
 ### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it
@@ -298,6 +316,25 @@ make an impact.
 -->
 
 ---
+## Broad categories of licenses
+
+We have three broad categories:
+
+- Permissive license
+  - Let people do anything they want with the code as long as they provide attribution back to the author/s and don’t hold the author/s liable.
+- Viral/share alike licenses
+  - Copyleft
+  - Must stay open in future
+  - Commercial and other use OK, as long as stays open
+  - Owners can always go closed later.
+- Proprietary/closed
+  - No one may copy, modify, improve, and so on
+  - The *default*
+
+Use a common one: https://choosealicense.com, Wikipedia
+
+---
+
 
 ## Software licensing and open source explained with cakes
 
@@ -328,39 +365,7 @@ protectable.  However, your description *is* protectable. -->
 
 ---
 
-## A friend tells you: why not distribute the recipe?
-
-- Put your recipe on GitHub.
-- Start the OpenCake organization.
-- Get feedback / start a mailing list.
-- More people will be able to enjoy the cake (increase impact).
-- Maybe somebody will find ways to improve the recipe.
-- Everyone will know that it was your idea even though somebody else bakes it.
-
----
-
-## Mrs. X (running a famous restaurant) finds your cake recipe on GitHub
-
-Let's say you did put the recipe on GitHub.
-
-<img src="img/cake-1.svg" style="width: 15%;"/>
-
-- The chef tries it and it is great.
-- The chef suggests improvements (derivative work):
-
-<img src="img/cake-2.svg" style="width: 15%;"/>
-
-- It becomes part of the restaurant menu.
-- Or does it? Depends on your license!
-
-<!--- What is most important is *how are the changes handled*.  Since
-you are giving the recipe out yourself, people can use it "personally"
-however they want.  But if they want to improve/reuse/redistribute it,
-then what?  -->
-
----
-
-## Possible outcomes 1/4: custom
+## Possible outcomes 1/4: custom or no license
 
 ### No license or custom license
 
@@ -422,6 +427,7 @@ They were fourced to distribute it, and that has directly led to
 a huge community of firmware modders.  -->
 
 ---
+
 
 ## What outcomes did we have?
 
