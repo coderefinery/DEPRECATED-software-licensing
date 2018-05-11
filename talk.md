@@ -257,6 +257,20 @@ method.  Don't think that copyright gives you magic protection.
 
 ---
 
+## Copyright Vs Copyleft
+<img src="img/copyleft.svg" style="width: 80%;"/>
+
+- Copyright
+	- protect authors from unauthorized copying or selling of their work.
+        - only with the author's permission may such activities take place.
+- Copyleft
+	- Provides a method for software or documentation to be modified distributed back to the community, provided it remains free (Libre).
+        - Derivative work can only be distributed under the same license terms.
+
+(Source :https://www.gnu.org)
+---
+
+
 ## Software license
 
 - Not having a license is worse than having one
