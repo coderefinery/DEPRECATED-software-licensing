@@ -296,7 +296,7 @@ make an impact.
 ---
 
 ## Copyright Vs Copyleft
-<img src="img/copyleft.svg" style="width: 80%;"/>
+<img src="img/copyleft.svg" style="width: 40%;"/>
 
 - Copyright
 	- protect authors from unauthorized copying or selling of their work.
