@@ -268,6 +268,30 @@ Is the freedom to ...
 - ... improve the software and distribute your improvements to the public
 
 ---
+## What is free software?
+
+### .blue[Free software does not mean that software is for free]
+### .blue[Open source license does not mean you need to share everything immediately]
+### .blue[Open source does not mean public domain]: software in the public domain has no owner
+### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it
+
+<!---
+
+Example: Ubuntu is free software.  It is supported by a company called
+Canonical.  Many people make free software.  Canonical packages it up as
+Ubuntu.  Because the software guarantees freedom, Canonical can't make Ubuntu
+closed-source.  Canonical doesn't make money out of the software itself - only
+their actual value-added services which they offer to companies.
+
+Example: you come up with a formula and a piece of software to improve a
+chemical process.
+
+Relate this to the value of what people have and want - much software is so
+small it isn't/can't be sold, but through a proper license others can help it
+make an impact.
+
+-->
+
 
 ---
 
@@ -300,32 +324,6 @@ Is the freedom to ...
 - How to use or adopt licensed material
 ---
 
-
-## What is free software?
-
-### .blue[Free software does not mean that software is for free]
-### .blue[Open source license does not mean you need to share everything immediately]
-### .blue[Open source does not mean public domain]: software in the public domain has no owner
-### .blue[Open source does not mean non-commercial]: plenty of companies produce and support it
-
-<!---
-
-Example: Ubuntu is free software.  It is supported by a company called
-Canonical.  Many people make free software.  Canonical packages it up as
-Ubuntu.  Because the software guarantees freedom, Canonical can't make Ubuntu
-closed-source.  Canonical doesn't make money out of the software itself - only
-their actual value-added services which they offer to companies.
-
-Example: you come up with a formula and a piece of software to improve a
-chemical process.
-
-Relate this to the value of what people have and want - much software is so
-small it isn't/can't be sold, but through a proper license others can help it
-make an impact.
-
--->
-
----
 
 ## Software licensing and open source explained with cakes
 
