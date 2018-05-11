@@ -134,16 +134,6 @@ patents" -->
 
 ---
 
-## Copyright vs. Patent in practice
-
-<img src="img/cake-1.svg" style="width: 50%;"/>
-- Copyright: You are Goethe and your writings are widely published, you are
-  given a right to some of the proceeds from selling copies
-- Trademark: You invented a better printing press
-
-(Image Public Domain,  Daniel Chodowiecki)
----
-
 ## Copyright in Finland
 
 - Copyright duration is lifetime of author + 70 years
