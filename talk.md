@@ -307,8 +307,6 @@ make an impact.
 
 (Source :https://www.gnu.org)
 ---
-
----
 ## Broad categories of licenses
 
 We have three broad categories:
@@ -327,7 +325,6 @@ We have three broad categories:
 Use a common one: https://choosealicense.com, Wikipedia
 
 ---
-
 
 
 ## Software license
