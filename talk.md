@@ -610,13 +610,11 @@ their internal rights to do their work! -->
 ## Practical aspects
 
 ### Running a project
-
 - License your code very early in the project
 - Consider license-compatibility "up" and "down"
 - Agree on a licensing strategy and make it public and visible
 
 ### Licensing
-
 - Add a LICENSE file to your repository (GitHub understands it)
   - Use GitHub web to add file named LICENSE and it helps you select!
   - You should check that GitHub can automatically detect the license
