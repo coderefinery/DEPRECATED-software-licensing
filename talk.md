@@ -524,6 +524,26 @@ http://choosealicense.com
 <!--many options.  Go to next slide -->
 ---
 
+
+##  Creative Commons licenses
+- CC0
+ - public domain
+ - waive all interests that may exist worldwide
+ - no Rights Reserved
+- CC
+ - Attribution (by)
+  - must give credit to author/s        
+ - ShareAlike (sa)
+  - distribute any modified work on the same terms
+ - NonCommercial (nc)
+  - no commercially use without permission
+ - NoDerivatives (nd)
+  - no modifications without permission
+
+source:https://creativecommons.org
+
+---
+
 ## Who owns the copyright for software you write?
 
 - You?
