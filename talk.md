@@ -6,17 +6,13 @@ class: middle, inverse
 
 # Software licensing and citation
 
-## [Jyry Suvilehto](http://jyrsa.iki.fi)
+#### Jyry Suvilehto - (NeIC,CSC-IT Center for Science)
 
-### [NeIC](https://neic.nordforsk.org)/ [CSC - IT Center for Science](https://www.csc.fi)
+#### Radovan Bast -  (NeIC, UiT-The Arctic University of Norway)
 
-## [Radovan Bast](http://bast.fr)
+#### Richard Darst - (Aalto University)
 
-### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
-
-## [Richard Darst](http://rkd.zgib.net)
-
-### [Aalto University](https://www.aalto.fi)
+#### Sabry Razick - (Neic, University of Oslo)
 
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
