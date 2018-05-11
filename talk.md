@@ -245,6 +245,13 @@ method.  Don't think that copyright gives you magic protection.
 - Your ideas won't get used
 
 ---
+
+## Why free software?
+<img src="img/free_to_take.svg" style="width: 100%;"/>
+
+---
+
+
 ## Free as in beer or free as in speech?
 
 ---
