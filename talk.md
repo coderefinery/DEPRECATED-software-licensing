@@ -243,6 +243,8 @@ method.  Don't think that copyright gives you magic protection.
 - Nobody who is careful about her/his code base should use or even look at your code
 - In other words: code without license is not useful for reuse or derivative work
 - Your ideas won't get used
+- Some sort of license will encourage usage under the specified conditions
+- Public domain or unlicensed, not the same as no license
 
 ---
 
@@ -325,23 +327,6 @@ We have three broad categories:
 Use a common one: https://choosealicense.com, Wikipedia
 
 ---
-
-
-## Software license
-
-- Not having a license is worse than having one
-        - No license, no one want to use it
-        - Some sort of license will encourage usage under the specified conditions
-        - Public domain or unlicensed, not the same as no license
-- Free and open software
-        - Copyleft
-        - My Ubuntu copy
-- Proprietary software
-        - My Windows copy and license-key
-- More on license categories
-- How to use or adopt licensed material
----
-
 
 ## Software licensing and open source explained with cakes
 
@@ -476,23 +461,6 @@ a huge community of firmware modders.  -->
   - Linux (viral, derivatives are still open)
 
 In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL
-
----
-## Broad categories of licenses
-
-We have three broad categories:
-
-- Permissive license
-  - Anyone can made closed source
-- Viral/share alike licenses
-  - Must stay open in future
-  - Commercial and other use OK, as long as stays open
-  - Owners can always go closed later.
-- Proprietary/closed
-  - No one may copy, modify, improve, and so on
-  - The *default*
-
-Use a common one: https://choosealicense.com
 
 ---
 
