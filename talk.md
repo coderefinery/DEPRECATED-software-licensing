@@ -240,6 +240,21 @@ method.  Don't think that copyright gives you magic protection.
 
 ---
 
+## Software license
+
+- Not having a license is worse than having one
+        - No license, no one want to use it
+        - Some sort of license will encourage usage under the specified conditions
+        - Public domain or unlicensed, not the same as no license
+- Free and open software
+        - Copyleft
+        - My Ubuntu copy
+- Proprietary software
+        - My Windows copy and license-key
+- More on license categories
+- How to use or adopt licensed material
+---
+
 ## What is free software?
 
 ### Software freedom
