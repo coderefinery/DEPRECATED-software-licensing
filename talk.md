@@ -110,7 +110,6 @@ complex and limited concept.  Most software can't be patentatable, and
 after you publish your ideas, patenting is impossible.  So, we
 focus on copyright, as you should too.  -->
 
-
 ---
 
 ## Copyright vs. Patent vs. Trademark
@@ -249,7 +248,7 @@ method.  Don't think that copyright gives you magic protection.
 ---
 
 ## Why free software?
-<img src="img/free_to_take.svg" style="width: 100%;"/>
+<img src="img/free_to_take.svg" style="width: 80%;"/>
 
 ---
 
@@ -508,7 +507,7 @@ In real world, **dual licensing** is common: GPL for anyone, but you can pay for
 - (most permissive)
 - Public domain (CC0)
 - Permissive (MIT, BSD) (CC-BY)
-        - Patent protection (Apache)
+ - Patent protection (Apache)
 - Share-alike (LGPL) (CC-BY-SA)
 - Viral (GPL2/3)
 - Viral including webservices (AGPL)
@@ -523,6 +522,28 @@ http://choosealicense.com
 <!--- Don't spend much time on this, just make the point there are -->
 <!--many options.  Go to next slide -->
 ---
+
+
+### Permissive
+- MIT
+ - lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable.
+- BSD
+ - lax (not strict), permissive, non-copyleft, free
+- CC-BY
+ - Only need to give credit to author/s
+- Apache License
+ - Like MIT but also provides an express grant of patent rights from contributors to users
+
+---
+### Viral
+- Copyleft licenses
+- Examples
+ - GNU General Public License (GPL)
+ - Creative Commons Attribution-Sharealike license (CC-BY-SA).
+
+source:https://en.wikipedia.org/wiki/GNU_General_Public_License
+---
+
 
 ## Who owns the copyright for software you write?
 
@@ -563,13 +584,11 @@ their internal rights to do their work! -->
 ## Practical aspects
 
 ### Running a project
-
 - License your code very early in the project
 - Consider license-compatibility "up" and "down"
 - Agree on a licensing strategy and make it public and visible
 
 ### Licensing
-
 - Add a LICENSE file to your repository (GitHub understands it)
   - Use GitHub web to add file named LICENSE and it helps you select!
   - You should check that GitHub can automatically detect the license
@@ -863,8 +882,24 @@ Public license releases the original author from all responsibilities, and does
 not guarantee that software does what it was intended to do; the other end of
 the spectrum is a guaranteed service and responsibility for bugfixing.
 
+--- 
 
+##  Creative Commons licenses
+- CC0
+ - public domain
+ - waive all interests that may exist worldwide
+ - no Rights Reserved
+- CC
+ - Attribution (by)
+  - must give credit to author/s        
+ - ShareAlike (sa)
+  - distribute any modified work on the same terms
+ - NonCommercial (nc)
+  - no commercially use without permission
+ - NoDerivatives (nd)
+  - no modifications without permission
 
+source:https://creativecommons.org
 
 
 ---
