@@ -6,17 +6,13 @@ class: middle, inverse
 
 # Software licensing and citation
 
-## [Jyry Suvilehto](http://jyrsa.iki.fi)
+#### Jyry Suvilehto - (NeIC,CSC-IT Center for Science)
 
-### [NeIC](https://neic.nordforsk.org)/ [CSC - IT Center for Science](https://www.csc.fi)
+#### Radovan Bast -  (NeIC, UiT-The Arctic University of Norway)
 
-## [Radovan Bast](http://bast.fr)
+#### Richard Darst - (Aalto University)
 
-### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
-
-## [Richard Darst](http://rkd.zgib.net)
-
-### [Aalto University](https://www.aalto.fi)
+#### Sabry Razick - (Neic, University of Oslo)
 
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -29,9 +25,8 @@ layout: false
 
 # Goals
 
-## 1) Motivate why software licenses matter
-## 2) Provide guidance on which license to choose
-## 3) Show how to make your code better citable
+## 1) Why software licenses matter
+## 2) Guidance on which license to choose
 ## 4) .blue[Discussion]
 
 ---
@@ -53,7 +48,7 @@ layout: false
 ---
 
 ## Who owns a physical object?
-
+<img src="img/CarOwner.svg" style="width: 40%;"/>
 - The one who has control
 - Ownership documentation
 
@@ -71,14 +66,16 @@ layout: false
 
 ---
 
-## Copyright vs. Patent, a Concrete Example
+## Copyright vs. Patent, an example
 
 <img src="img/printing_press.jpg" style="width: 50%;"/>
 
 - Copyright: You are Goethe and your writings are widely published, you are
-  given a right to some of the proceeds from selling copies
+  given a right to some of the proceeds from selling copies (.blue[expression of an idea])
 - Patent: You invented a better printing press and are given the exclusive
-  to manufacture printing presses that use the technique
+  to manufacture printing presses that use the technique (.blue[invention])
+- Trademark: You start selling the printing press with the name AutoPress, which
+  distinguishes your press from others (.blue[Ownership]).
 
 <!-- Printing press was the reason copyright was necessary in the first place.
 Before the printing press copying anything was manual labour and the cost of
@@ -127,7 +124,7 @@ focus on copyright, as you should too.  -->
     what you are doing
 - *Trademark* is the right to not be impersonated
 - You cannot put a copyright or patent on an algorithm.
-  - Or can you?
+  - Or can you (Google search algorithm)?
 
 <!--- Patents are so sacred that even during WWII German aircraft
 manufacturers paid patent royalties to american corporations on fighter
@@ -135,16 +132,6 @@ jet engine designs. Imagine Sean Bean saying "One does not simply infringe
 patents" -->
 
 
----
-
-## Copyright vs. Patent in practice
-
-<img src="img/cake-1.svg" style="width: 50%;"/>
-- Copyright: You are Goethe and your writings are widely published, you are
-  given a right to some of the proceeds from selling copies
-- Trademark: You invented a better printing press
-
-(Image Public Domain,  Daniel Chodowiecki)
 ---
 
 ## Copyright in Finland
@@ -190,8 +177,6 @@ patents" -->
   - This is likely to be overruled if ever taken to EU courts but that is a
     long process...
 
-
-
 ---
 
 ## These slides are an expression of an idea
@@ -205,7 +190,7 @@ patents" -->
 ## These slides are an expression of an idea
 
 - Can I patent them? .blue[No]
-- Do I need to copyright them? .blue[No (copyright by default)]
+- Do I need to copyright them? .blue[No (copyright by default), but you could have one]
 - Are you allowed to share them via email or Twitter or similar? .blue[Yes!]
 
 ### Yes to sharing!
@@ -251,8 +236,32 @@ method.  Don't think that copyright gives you magic protection.
 
 ---
 
+## What happens if I do not choose a license?
+
+- Software that you write is copyrighted by default
+- Without a license it is not clear what use breaks copyright
+- Nobody who is careful about her/his code base should use or even look at your code
+- In other words: code without license is not useful for reuse or derivative work
+- Your ideas won't get used
+
+---
 ## Free as in beer or free as in speech?
 
+---
+
+## Software license
+
+- Not having a license is worse than having one
+        - No license, no one want to use it
+        - Some sort of license will encourage usage under the specified conditions
+        - Public domain or unlicensed, not the same as no license
+- Free and open software
+        - Copyleft
+        - My Ubuntu copy
+- Proprietary software
+        - My Windows copy and license-key
+- More on license categories
+- How to use or adopt licensed material
 ---
 
 ## What is free software?
@@ -444,16 +453,6 @@ We have three broad categories:
   - The *default*
 
 Use a common one: https://choosealicense.com
-
----
-
-## What happens if I do not choose a license?
-
-- Software that you write is copyrighted by default
-- Without a license it is not clear what use breaks copyright
-- Nobody who is careful about her/his code base should use or even look at your code
-- In other words: code without license is not useful for reuse or derivative work
-- Your ideas won't get used
 
 ---
 
