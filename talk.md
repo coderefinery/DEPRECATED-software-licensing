@@ -177,8 +177,6 @@ patents" -->
   - This is likely to be overruled if ever taken to EU courts but that is a
     long process...
 
-
-
 ---
 
 ## These slides are an expression of an idea
@@ -192,7 +190,7 @@ patents" -->
 ## These slides are an expression of an idea
 
 - Can I patent them? .blue[No]
-- Do I need to copyright them? .blue[No (copyright by default)]
+- Do I need to copyright them? .blue[No (copyright by default), but you could have one]
 - Are you allowed to share them via email or Twitter or similar? .blue[Yes!]
 
 ### Yes to sharing!
