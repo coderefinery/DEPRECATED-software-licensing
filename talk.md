@@ -255,6 +255,20 @@ method.  Don't think that copyright gives you magic protection.
 ## Free as in beer or free as in speech?
 <img src="img/free.svg" style="width: 80%;"/>
 
+
+## What is free software?
+
+### Software freedom
+
+Is the freedom to ...
+
+- ... run the software for any purpose
+- ... study how the software works and to adapt it to your needs
+- ... redistribute copies of the software
+- ... improve the software and distribute your improvements to the public
+
+---
+
 ---
 
 ## Copyright Vs Copyleft
@@ -286,18 +300,6 @@ method.  Don't think that copyright gives you magic protection.
 - How to use or adopt licensed material
 ---
 
-## What is free software?
-
-### Software freedom
-
-Is the freedom to ...
-
-- ... run the software for any purpose
-- ... study how the software works and to adapt it to your needs
-- ... redistribute copies of the software
-- ... improve the software and distribute your improvements to the public
-
----
 
 ## What is free software?
 
