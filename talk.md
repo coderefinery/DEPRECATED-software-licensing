@@ -508,7 +508,7 @@ In real world, **dual licensing** is common: GPL for anyone, but you can pay for
 - (most permissive)
 - Public domain (CC0)
 - Permissive (MIT, BSD) (CC-BY)
-        - Patent protection (Apache)
+ - Patent protection (Apache)
 - Share-alike (LGPL) (CC-BY-SA)
 - Viral (GPL2/3)
 - Viral including webservices (AGPL)
