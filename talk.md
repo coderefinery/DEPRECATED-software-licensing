@@ -561,6 +561,14 @@ source:https://creativecommons.org
 source:https://en.wikipedia.org/wiki/Share-alike
 
 ---
+### Viral
+- Copyleft licenses
+- Examples
+ - GNU General Public License (GPL)
+ - Creative Commons Attribution-Sharealike license (CC-BY-SA).
+
+source:https://en.wikipedia.org/wiki/GNU_General_Public_License
+---
 
 
 ## Who owns the copyright for software you write?
