@@ -110,7 +110,6 @@ complex and limited concept.  Most software can't be patentatable, and
 after you publish your ideas, patenting is impossible.  So, we
 focus on copyright, as you should too.  -->
 
-
 ---
 
 ## Copyright vs. Patent vs. Trademark
