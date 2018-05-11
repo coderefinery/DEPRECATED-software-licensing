@@ -543,6 +543,25 @@ http://choosealicense.com
 source:https://creativecommons.org
 
 ---
+### Permissive
+- MIT
+ - lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable.
+- BSD
+ - lax (not strict), permissive, non-copyleft, free
+- CC-BY
+ - Only need to give credit to author/s
+- Apache License
+ - Like MIT but also provides an express grant of patent rights from contributors to users
+---
+
+### Share Alike
+- Creative Commons Attribution-ShareAlike (a copyleft, free content license)
+- Creative Commons Attribution-NonCommercial-ShareAlike (a proprietary license).
+
+source:https://en.wikipedia.org/wiki/Share-alike
+
+---
+
 
 ## Who owns the copyright for software you write?
 
