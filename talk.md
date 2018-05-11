@@ -25,9 +25,8 @@ layout: false
 
 # Goals
 
-## 1) Motivate why software licenses matter
-## 2) Provide guidance on which license to choose
-## 3) Show how to make your code better citable
+## 1) Why software licenses matter
+## 2) Guidance on which license to choose
 ## 4) .blue[Discussion]
 
 ---
