@@ -243,26 +243,20 @@ method.  Don't think that copyright gives you magic protection.
 - Nobody who is careful about her/his code base should use or even look at your code
 - In other words: code without license is not useful for reuse or derivative work
 - Your ideas won't get used
+- Some sort of license will encourage usage under the specified conditions
+- Public domain or unlicensed, not the same as no license
 
 ---
+
+## Why free software?
+<img src="img/free_to_take.svg" style="width: 100%;"/>
+
+---
+
+
 ## Free as in beer or free as in speech?
+<img src="img/free.svg" style="width: 40%;"/>
 
----
-
-## Software license
-
-- Not having a license is worse than having one
-        - No license, no one want to use it
-        - Some sort of license will encourage usage under the specified conditions
-        - Public domain or unlicensed, not the same as no license
-- Free and open software
-        - Copyleft
-        - My Ubuntu copy
-- Proprietary software
-        - My Windows copy and license-key
-- More on license categories
-- How to use or adopt licensed material
----
 
 ## What is free software?
 
@@ -276,7 +270,6 @@ Is the freedom to ...
 - ... improve the software and distribute your improvements to the public
 
 ---
-
 ## What is free software?
 
 ### .blue[Free software does not mean that software is for free]
@@ -300,6 +293,38 @@ small it isn't/can't be sold, but through a proper license others can help it
 make an impact.
 
 -->
+
+
+---
+
+## Copyright Vs Copyleft
+<img src="img/copyleft.svg" style="width: 40%;"/>
+
+- Copyright
+	- protect authors from unauthorized copying or selling of their work.
+        - only with the author's permission may such activities take place.
+- Copyleft
+	- Provides a method for software or documentation to be modified distributed back to the community, provided it remains free (Libre).
+        - Derivative work can only be distributed under the same license terms.
+
+(Source :https://www.gnu.org)
+---
+## Broad categories of licenses
+
+We have three broad categories:
+
+- Permissive license
+  - Let people do anything they want with the code as long as they provide attribution back to the author/s and don’t hold the author/s liable.
+- Viral/share alike licenses
+  - Copyleft
+  - Must stay open in future
+  - Commercial and other use OK, as long as stays open
+  - Owners can always go closed later.
+- Proprietary/closed
+  - No one may copy, modify, improve, and so on
+  - The *default*
+
+Use a common one: https://choosealicense.com, Wikipedia
 
 ---
 
@@ -438,23 +463,6 @@ a huge community of firmware modders.  -->
 In real world, **dual licensing** is common: GPL for anyone, but you can pay for commercial non-GPL
 
 ---
-## Broad categories of licenses
-
-We have three broad categories:
-
-- Permissive license
-  - Anyone can made closed source
-- Viral/share alike licenses
-  - Must stay open in future
-  - Commercial and other use OK, as long as stays open
-  - Owners can always go closed later.
-- Proprietary/closed
-  - No one may copy, modify, improve, and so on
-  - The *default*
-
-Use a common one: https://choosealicense.com
-
----
 
 ## Questions to ask yourself when looking for the right license
 
@@ -500,7 +508,7 @@ Use a common one: https://choosealicense.com
 - (most permissive)
 - Public domain (CC0)
 - Permissive (MIT, BSD) (CC-BY)
-- Patent protection (Apache)
+        - Patent protection (Apache)
 - Share-alike (LGPL) (CC-BY-SA)
 - Viral (GPL2/3)
 - Viral including webservices (AGPL)
@@ -514,7 +522,6 @@ http://choosealicense.com
 
 <!--- Don't spend much time on this, just make the point there are -->
 <!--many options.  Go to next slide -->
-
 ---
 
 ## Who owns the copyright for software you write?
