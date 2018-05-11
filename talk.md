@@ -253,7 +253,7 @@ method.  Don't think that copyright gives you magic protection.
 
 
 ## Free as in beer or free as in speech?
-<img src="img/free.svg" style="width: 80%;"/>
+<img src="img/free.svg" style="width: 40%;"/>
 
 
 ## What is free software?
