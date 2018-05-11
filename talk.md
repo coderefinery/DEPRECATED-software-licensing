@@ -308,6 +308,27 @@ make an impact.
 (Source :https://www.gnu.org)
 ---
 
+---
+## Broad categories of licenses
+
+We have three broad categories:
+
+- Permissive license
+  - Let people do anything they want with the code as long as they provide attribution back to the author/s and don’t hold the author/s liable.
+- Viral/share alike licenses
+  - Copyleft
+  - Must stay open in future
+  - Commercial and other use OK, as long as stays open
+  - Owners can always go closed later.
+- Proprietary/closed
+  - No one may copy, modify, improve, and so on
+  - The *default*
+
+Use a common one: https://choosealicense.com, Wikipedia
+
+---
+
+
 
 ## Software license
 
