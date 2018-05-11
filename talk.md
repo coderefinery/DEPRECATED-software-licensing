@@ -249,7 +249,7 @@ method.  Don't think that copyright gives you magic protection.
 ---
 
 ## Why free software?
-<img src="img/free_to_take.svg" style="width: 100%;"/>
+<img src="img/free_to_take.svg" style="width: 80%;"/>
 
 ---
 
