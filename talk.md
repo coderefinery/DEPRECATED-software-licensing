@@ -133,7 +133,7 @@ patents" -->
 
 ---
 
-## Copyright in Finland
+## Copyright in Finland (1/2)
 
 - Copyright duration is lifetime of author + 70 years
   - In case of multiple authors, count from the last one
@@ -155,7 +155,7 @@ patents" -->
 
 ---
 
-## Copyright in Finland Part 2
+## Copyright in Finland (2/2)
 
 - Related rights (lähioikeudet)
   - Protect things that might not meet threshold of originality
