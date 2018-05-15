@@ -247,17 +247,11 @@ method.  Don't think that copyright gives you magic protection.
 
 ---
 
-## Why free software?
-<img src="img/free_to_take.svg" style="width: 80%;"/>
+## What is free software?
 
----
-
-
-## Free as in beer or free as in speech?
+### Free as in beer or free as in speech?
 <img src="img/free.svg" style="width: 40%;"/>
 
-
-## What is free software?
 
 ### Software freedom
 
@@ -292,6 +286,11 @@ small it isn't/can't be sold, but through a proper license others can help it
 make an impact.
 
 -->
+
+---
+
+## Why free software?
+<img src="img/free_to_take.svg" style="width: 80%;"/>
 
 
 ---
