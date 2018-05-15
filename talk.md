@@ -161,7 +161,7 @@ patents" -->
   - Protect things that might not meet threshold of originality
   - Recordings, photographs, **databases**
   - Less stringent duration, etc.
-- Copyright is typically transfered to employer for works done in the context
+- Copyright is typically transferred to employer for works done in the context
   of a salaried work
   - Researchers working on grant money are an exception
   - You still have the right to be recognized as the author
