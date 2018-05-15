@@ -6,13 +6,13 @@ class: middle, inverse
 
 # Software licensing and citation
 
-#### Jyry Suvilehto - (NeIC,CSC-IT Center for Science)
+#### Jyry Suvilehto (NeIC, CSC-IT Center for Science)
 
-#### Radovan Bast -  (NeIC, UiT-The Arctic University of Norway)
+#### Radovan Bast (NeIC, UiT-The Arctic University of Norway)
 
-#### Richard Darst - (Aalto University)
+#### Richard Darst (Aalto University)
 
-#### Sabry Razick - (Neic, University of Oslo)
+#### Sabry Razick (NeIC, University of Oslo)
 
 Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -27,7 +27,7 @@ layout: false
 
 ## 1) Why software licenses matter
 ## 2) Guidance on which license to choose
-## 4) .blue[Discussion]
+## 3) .blue[Discussion]
 
 ---
 
@@ -133,7 +133,7 @@ patents" -->
 
 ---
 
-## Copyright in Finland
+## Copyright in Finland (1/2)
 
 - Copyright duration is lifetime of author + 70 years
   - In case of multiple authors, count from the last one
@@ -155,13 +155,13 @@ patents" -->
 
 ---
 
-## Copyright in Finland Part 2
+## Copyright in Finland (2/2)
 
 - Related rights (lähioikeudet)
   - Protect things that might not meet threshold of originality
   - Recordings, photographs, **databases**
   - Less stringent duration, etc.
-- Copyright is typically transfered to employer for works done in the context
+- Copyright is typically transferred to employer for works done in the context
   of a salaried work
   - Researchers working on grant money are an exception
   - You still have the right to be recognized as the author
@@ -535,15 +535,17 @@ http://choosealicense.com
  - Like MIT but also provides an express grant of patent rights from contributors to users
 
 ---
+
 ### Viral
+
 - Copyleft licenses
 - Examples
  - GNU General Public License (GPL)
  - Creative Commons Attribution-Sharealike license (CC-BY-SA).
 
-source:https://en.wikipedia.org/wiki/GNU_General_Public_License
----
+source: https://en.wikipedia.org/wiki/GNU_General_Public_License
 
+---
 
 ## Who owns the copyright for software you write?
 
@@ -882,7 +884,7 @@ Public license releases the original author from all responsibilities, and does
 not guarantee that software does what it was intended to do; the other end of
 the spectrum is a guaranteed service and responsibility for bugfixing.
 
---- 
+---
 
 ##  Creative Commons licenses
 - CC0
@@ -891,7 +893,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
  - no Rights Reserved
 - CC
  - Attribution (by)
-  - must give credit to author/s        
+  - must give credit to author/s
  - ShareAlike (sa)
   - distribute any modified work on the same terms
  - NonCommercial (nc)
@@ -899,13 +901,10 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
  - NoDerivatives (nd)
   - no modifications without permission
 
-source:https://creativecommons.org
+source: https://creativecommons.org
 
-
----
 <!---
 TODO
-
 
 - What if I want someone to cite me?  (don't make it a license criteria, you become incompatible.  This is always required by scientific ethics anyway!)
 - We are moving towards a future where all abstract things are owned.  Is this good?
