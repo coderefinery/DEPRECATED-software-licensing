@@ -27,7 +27,7 @@ layout: false
 
 ## 1) Why software licenses matter
 ## 2) Guidance on which license to choose
-## 4) .blue[Discussion]
+## 3) .blue[Discussion]
 
 ---
 
