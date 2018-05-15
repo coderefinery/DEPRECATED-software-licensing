@@ -882,7 +882,7 @@ Public license releases the original author from all responsibilities, and does
 not guarantee that software does what it was intended to do; the other end of
 the spectrum is a guaranteed service and responsibility for bugfixing.
 
---- 
+---
 
 ##  Creative Commons licenses
 - CC0
@@ -891,7 +891,7 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
  - no Rights Reserved
 - CC
  - Attribution (by)
-  - must give credit to author/s        
+  - must give credit to author/s
  - ShareAlike (sa)
   - distribute any modified work on the same terms
  - NonCommercial (nc)
