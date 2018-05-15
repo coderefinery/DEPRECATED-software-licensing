@@ -535,15 +535,17 @@ http://choosealicense.com
  - Like MIT but also provides an express grant of patent rights from contributors to users
 
 ---
+
 ### Viral
+
 - Copyleft licenses
 - Examples
  - GNU General Public License (GPL)
  - Creative Commons Attribution-Sharealike license (CC-BY-SA).
 
-source:https://en.wikipedia.org/wiki/GNU_General_Public_License
----
+source: https://en.wikipedia.org/wiki/GNU_General_Public_License
 
+---
 
 ## Who owns the copyright for software you write?
 
@@ -899,13 +901,10 @@ the spectrum is a guaranteed service and responsibility for bugfixing.
  - NoDerivatives (nd)
   - no modifications without permission
 
-source:https://creativecommons.org
+source: https://creativecommons.org
 
-
----
 <!---
 TODO
-
 
 - What if I want someone to cite me?  (don't make it a license criteria, you become incompatible.  This is always required by scientific ethics anyway!)
 - We are moving towards a future where all abstract things are owned.  Is this good?
