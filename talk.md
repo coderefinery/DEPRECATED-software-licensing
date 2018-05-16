@@ -66,7 +66,7 @@ layout: false
 
 ---
 
-## Copyright vs. Patent, an example
+## Copyright vs. Patent vs. Trademark, example
 
 <img src="img/printing_press.jpg" style="width: 50%;"/>
 
