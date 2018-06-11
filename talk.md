@@ -520,6 +520,9 @@ http://choosealicense.com
 
 <!--- Don't spend much time on this, just make the point there are -->
 <!--many options.  Go to next slide -->
+---
+## Common free licence types comparison
+<img src="img/licenses_comparisen_permissions.svg" style="width: 99%;"/>
 
 ---
 ## Who owns the copyright for software you write?
