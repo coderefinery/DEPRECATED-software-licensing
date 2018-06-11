@@ -521,7 +521,7 @@ http://choosealicense.com
 <!--- Don't spend much time on this, just make the point there are -->
 <!--many options.  Go to next slide -->
 ---
-## Common free licence types comparison
+Common free licence types comparison (https://choosealicense.com/licenses/)
 <img src="img/licenses_comparisen_permissions.svg" style="width: 99%;"/>
 <img src="img/licenses_comparisen_conditions.svg" style="width: 99%;"/>
 <img src="img/licenses_comparisen_limitations.svg" style="width: 99%;"/>
