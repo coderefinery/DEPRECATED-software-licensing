@@ -523,7 +523,7 @@ http://choosealicense.com
 ---
 ## Common free licence types comparison
 <img src="img/licenses_comparisen_permissions.svg" style="width: 99%;"/>
-
+<img src="img/licenses_comparisen_conditions.svg" style="width: 99%;"/>
 ---
 ## Who owns the copyright for software you write?
 
