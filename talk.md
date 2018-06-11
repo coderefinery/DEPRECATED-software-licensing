@@ -432,7 +432,7 @@ fictitious example though. -->
 
 ## Possible outcomes 4/4: viral
 
-### License: GNU GPL or GNU Affero GPL (for web services)
+### License: GNU GPL or GNU Affero GPL (typically web-applications)
 
 - If the cake is a part of the menu, the famous restaurant has to share the recipes of the **entire menu**.
 - You can use their improved recipe and improve it further:
