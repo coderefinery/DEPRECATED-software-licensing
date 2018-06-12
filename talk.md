@@ -501,16 +501,7 @@ In real world, **dual licensing** is common: GPL for anyone, but you can pay for
   is recommended if you might want to commercialize later.
 
 ---
-## Zoo of licenses
-
-- (most permissive)
-- Public domain (CC0)
-- Permissive (MIT, BSD) (CC-BY)
- - Patent protection (Apache)
-- Share-alike (LGPL) (CC-BY-SA)
-- Viral (GPL2/3)
-- Viral including webservices (AGPL)
-- (most freedom-preserving)
+## Which license to use?
 
 There are *many* licenses, but you should not be creative.  **Use the
 most common** for your situation, license proliferation is a real problem.
