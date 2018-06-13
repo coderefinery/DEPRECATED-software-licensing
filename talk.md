@@ -432,7 +432,7 @@ fictitious example though. -->
 
 ## Possible outcomes 4/4: viral
 
-### License: GNU GPL or GNU Affero GPL (for web services)
+### License: GNU GPL or GNU Affero GPL (typically web-applications)
 
 - If the cake is a part of the menu, the famous restaurant has to share the recipes of the **entire menu**.
 - You can use their improved recipe and improve it further:
@@ -501,16 +501,7 @@ In real world, **dual licensing** is common: GPL for anyone, but you can pay for
   is recommended if you might want to commercialize later.
 
 ---
-## Zoo of licenses
-
-- (most permissive)
-- Public domain (CC0)
-- Permissive (MIT, BSD) (CC-BY)
- - Patent protection (Apache)
-- Share-alike (LGPL) (CC-BY-SA)
-- Viral (GPL2/3)
-- Viral including webservices (AGPL)
-- (most freedom-preserving)
+## Which license to use?
 
 There are *many* licenses, but you should not be creative.  **Use the
 most common** for your situation, license proliferation is a real problem.
@@ -521,31 +512,10 @@ http://choosealicense.com
 <!--- Don't spend much time on this, just make the point there are -->
 <!--many options.  Go to next slide -->
 ---
+Common free licence types comparison (https://choosealicense.com/licenses/)
 
-
-### Permissive
-- MIT
- - lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable.
-- BSD
- - lax (not strict), permissive, non-copyleft, free
-- CC-BY
- - Only need to give credit to author/s
-- Apache License
- - Like MIT but also provides an express grant of patent rights from contributors to users
-
+<img src="img/free_lisence_comparisen.svg" style="width: 100%;"/>
 ---
-
-### Viral
-
-- Copyleft licenses
-- Examples
- - GNU General Public License (GPL)
- - Creative Commons Attribution-Sharealike license (CC-BY-SA).
-
-source: https://en.wikipedia.org/wiki/GNU_General_Public_License
-
----
-
 ## Who owns the copyright for software you write?
 
 - You?
